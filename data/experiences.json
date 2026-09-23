@@ -1,0 +1,16 @@
+{
+  "statuses": ["idea", "enquired", "held", "booked", "cancelled"],
+  "experiences": [
+    { "id": "thames-boat", "title": "Private Thames boat at dusk", "kind": "signature", "status": "idea", "leadTime": "2–3 weeks", "estCostGbp": 3000, "sponsorable": true, "content": "excellent", "notes": "Board around 15:15 for sunset at about 16:10" },
+    { "id": "savile-row", "title": "Savile Row bespoke visit and fitting", "kind": "signature", "status": "idea", "leadTime": "2–4 weeks", "estCostGbp": 2500, "sponsorable": true, "content": "strong" },
+    { "id": "chefs-table", "title": "Private dining room for the Farewell Dinner", "kind": "signature", "status": "idea", "leadTime": "3–4 weeks", "estCostGbp": 4000, "sponsorable": true, "content": "strong" },
+    { "id": "ceremony-keys", "title": "Ceremony of the Keys, Tower of London", "kind": "signature", "status": "idea", "leadTime": "Months (check now)", "estCostGbp": 0, "sponsorable": false, "content": "none", "notes": "No filming allowed" },
+    { "id": "horizon-22", "title": "Horizon 22 or Sky Garden viewing", "kind": "signature", "status": "idea", "leadTime": "When slots release", "estCostGbp": 0, "sponsorable": false, "content": "strong" },
+    { "id": "borough-roast", "title": "Borough Market walk plus a historic pub roast", "kind": "relaxed", "status": "idea", "leadTime": "1 week", "estCostGbp": 900, "sponsorable": false, "content": "good" },
+    { "id": "sauna", "title": "Sauna and cold plunge reset", "kind": "relaxed", "status": "idea", "leadTime": "1–2 weeks", "estCostGbp": 600, "sponsorable": true, "content": "good" },
+    { "id": "park-run", "title": "Morning run in Holland Park, then coffee", "kind": "relaxed", "status": "idea", "leadTime": "None", "estCostGbp": 100, "sponsorable": false, "content": "good" },
+    { "id": "padel", "title": "Padel session", "kind": "relaxed", "status": "idea", "leadTime": "1 week", "estCostGbp": 400, "sponsorable": true, "content": "good" },
+    { "id": "private-view", "title": "Private view: Leighton House or the Design Museum", "kind": "relaxed", "status": "idea", "leadTime": "2–3 weeks", "estCostGbp": 2000, "sponsorable": true, "content": "strong" },
+    { "id": "tasting", "title": "Gin or whisky tasting", "kind": "relaxed", "status": "idea", "leadTime": "1–2 weeks", "estCostGbp": 800, "sponsorable": true, "content": "moderate" }
+  ]
+}

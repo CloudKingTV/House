@@ -1,0 +1,12 @@
+{
+  "statuses": ["shortlist", "invited", "accepted", "declined"],
+  "commitmentTargets": {
+    "posts": 6,
+    "amplify": 6,
+    "studio": 1,
+    "role": 1,
+    "flagship": 1,
+    "dinners": 2
+  },
+  "guests": []
+}

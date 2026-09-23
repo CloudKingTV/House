@@ -1,0 +1,10 @@
+{
+  "name": "sagadao-house-london",
+  "private": true,
+  "description": "Planning hub and dashboard for SagaDAO House at Solana Breakpoint 2026, London",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check"
+  }
+}

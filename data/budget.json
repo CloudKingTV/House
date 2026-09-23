@@ -1,0 +1,21 @@
+{
+  "currency": "GBP",
+  "note": "Planned figures are estimates from docs/planning/budget.md. Replace with quotes.",
+  "lines": [
+    { "id": "house", "category": "House", "item": "Residence, 6 nights, 12 beds", "plannedGbp": 40000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "venue", "category": "Venue", "item": "Flagship venue (if model B/C)", "plannedGbp": 10000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "catering", "category": "Food & drink", "item": "Resident breakfasts, dinners, session food", "plannedGbp": 11000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "flagship-fb", "category": "Food & drink", "item": "Flagship night food and licensed bar", "plannedGbp": 18000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "security", "category": "Operations", "item": "SIA door staff and overnight cover", "plannedGbp": 5000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "production", "category": "Content", "item": "Crew, kit and edit", "plannedGbp": 14000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "studio-av", "category": "Content", "item": "Studio set, AV and streaming", "plannedGbp": 5000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "kits", "category": "Hospitality", "item": "Resident welcome kits (12)", "plannedGbp": 4800, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "gifts", "category": "Hospitality", "item": "Attendee gifts (300)", "plannedGbp": 6000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "excursions", "category": "Hospitality", "item": "Excursions and private experiences", "plannedGbp": 8000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "transport", "category": "Operations", "item": "Chauffeur: airport, Olympia, excursions", "plannedGbp": 3500, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "staff", "category": "Operations", "item": "House manager, concierge, housekeeping", "plannedGbp": 6000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "print", "category": "Hospitality", "item": "Print, signage, florals, styling", "plannedGbp": 3500, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "insurance", "category": "Operations", "item": "Insurance and licensing", "plannedGbp": 1000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
+    { "id": "contingency", "category": "Contingency", "item": "10% contingency", "plannedGbp": 13580, "committedGbp": 0, "paidGbp": 0, "estimate": true }
+  ]
+}

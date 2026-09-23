@@ -1,0 +1,22 @@
+{
+  "slas": [
+    { "layer": "Moment clip", "target": "Within 2 h" },
+    { "layer": "Daily recap", "target": "By 23:00" },
+    { "layer": "Studio clips", "target": "Same day" },
+    { "layer": "Studio episode", "target": "Within 48 h" },
+    { "layer": "Hero film", "target": "Within 7 days" }
+  ],
+  "baseline": {
+    "followers": null,
+    "note": "Record the SagaDAO account follower count on 13 Nov"
+  },
+  "metrics": [
+    { "key": "posts", "label": "Posts published", "target": 150, "actual": 0 },
+    { "key": "medianMinutes", "label": "Median minutes to post", "target": 120, "actual": null, "lowerIsBetter": true },
+    { "key": "impressions", "label": "Impressions", "target": null, "actual": 0 },
+    { "key": "followers", "label": "Followers gained", "target": null, "actual": 0 },
+    { "key": "registrations", "label": "Luma registrations from content", "target": null, "actual": 0 },
+    { "key": "enquiries", "label": "Inbound sponsor enquiries", "target": 10, "actual": 0 }
+  ],
+  "log": []
+}

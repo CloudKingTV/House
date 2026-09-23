@@ -1,0 +1,70 @@
+{
+  "areas": ["house", "sponsors", "guests", "programme", "content", "experiences", "arrival", "ops", "budget"],
+  "tasks": [
+    { "id": "t000", "title": "Set up the planning hub (this repo)", "area": "ops", "due": "2026-09-23", "status": "done", "doc": "README.md" },
+
+    { "id": "t001", "title": "Lock goals and targets", "area": "ops", "due": "2026-09-25", "status": "todo", "doc": "docs/vision.md" },
+    { "id": "t002", "title": "Agree budget envelope", "area": "budget", "due": "2026-09-25", "status": "todo", "doc": "docs/planning/budget.md" },
+    { "id": "t003", "title": "Decide checkout: 19 or 20 Nov", "area": "house", "due": "2026-09-25", "status": "todo", "doc": "docs/planning/decisions-log.md" },
+    { "id": "t004", "title": "Shortlist 5 houses near Olympia", "area": "house", "due": "2026-09-25", "status": "todo", "doc": "docs/planning/house-and-venue.md" },
+    { "id": "t005", "title": "Draft sponsorship packages and pricing", "area": "sponsors", "due": "2026-09-25", "status": "todo", "doc": "docs/sponsors/packages.md" },
+    { "id": "t006", "title": "Build prospect list: 30+ projects", "area": "sponsors", "due": "2026-09-26", "status": "todo", "doc": "docs/sponsors/playbook.md" },
+    { "id": "t007", "title": "Shortlist 16–18 resident candidates", "area": "guests", "due": "2026-09-26", "status": "todo", "doc": "docs/guests/guest-journey.md" },
+    { "id": "t008", "title": "Reach out to production crew candidates", "area": "content", "due": "2026-09-26", "status": "todo", "doc": "docs/content/strategy.md" },
+
+    { "id": "t009", "title": "Finish sponsor deck", "area": "sponsors", "due": "2026-09-30", "status": "todo", "doc": "docs/sponsors/packages.md" },
+    { "id": "t010", "title": "Check Ceremony of the Keys availability", "area": "experiences", "due": "2026-09-30", "status": "todo", "doc": "docs/experiences/london-shortlist.md" },
+    { "id": "t011", "title": "Sign the house, with written event and filming permission", "area": "house", "due": "2026-10-02", "status": "todo", "doc": "docs/planning/house-and-venue.md" },
+    { "id": "t012", "title": "Decide flagship venue model (A / B / C)", "area": "house", "due": "2026-10-02", "status": "todo", "doc": "docs/planning/house-and-venue.md" },
+    { "id": "t013", "title": "Sponsor outreach wave 1 to all prospects", "area": "sponsors", "due": "2026-10-02", "status": "todo", "doc": "docs/sponsors/playbook.md" },
+    { "id": "t014", "title": "House brand kit: wordmark, invitation design", "area": "content", "due": "2026-10-02", "status": "todo" },
+    { "id": "t015", "title": "Book production crew", "area": "content", "due": "2026-10-02", "status": "todo", "doc": "docs/content/strategy.md" },
+    { "id": "t016", "title": "Quotes: caterer, bar, SIA security, AV, cleaning, chauffeur", "area": "ops", "due": "2026-10-02", "status": "todo", "doc": "docs/planning/vendors.md" },
+
+    { "id": "t017", "title": "Excursion enquiries, longest lead times first", "area": "experiences", "due": "2026-10-07", "status": "todo", "doc": "docs/experiences/london-shortlist.md" },
+    { "id": "t018", "title": "Resident invitations and charter sent", "area": "guests", "due": "2026-10-09", "status": "todo", "doc": "docs/guests/house-charter.md" },
+    { "id": "t019", "title": "Luma page live, applications open", "area": "arrival", "due": "2026-10-09", "status": "todo", "doc": "docs/attendees/arrival-experience.md" },
+    { "id": "t020", "title": "Programme draft v1 and speaker wishlist", "area": "programme", "due": "2026-10-09", "status": "todo", "doc": "docs/programme/strategy.md" },
+    { "id": "t021", "title": "Welcome kit design and sourcing; request sponsor inclusions", "area": "guests", "due": "2026-10-09", "status": "todo", "doc": "docs/guests/welcome-kit.md" },
+    { "id": "t022", "title": "First sponsor signings and kickoff calls", "area": "sponsors", "due": "2026-10-09", "status": "todo", "doc": "docs/sponsors/playbook.md" },
+
+    { "id": "t023", "title": "Order welcome kits and attendee gifts", "area": "guests", "due": "2026-10-16", "status": "todo", "doc": "docs/guests/welcome-kit.md" },
+    { "id": "t024", "title": "Book caterer, bar, security and AV", "area": "ops", "due": "2026-10-16", "status": "todo", "doc": "docs/planning/vendors.md" },
+    { "id": "t025", "title": "Invite speakers for every session", "area": "programme", "due": "2026-10-16", "status": "todo" },
+    { "id": "t026", "title": "Book or hold excursions", "area": "experiences", "due": "2026-10-16", "status": "todo" },
+    { "id": "t027", "title": "Send resident preference forms", "area": "guests", "due": "2026-10-16", "status": "todo", "doc": "docs/guests/preference-form.md" },
+
+    { "id": "t028", "title": "Sponsor sign-off deadline", "area": "sponsors", "due": "2026-10-23", "status": "todo" },
+    { "id": "t029", "title": "Submit Temporary Event Notice(s), if needed", "area": "ops", "due": "2026-10-23", "status": "todo", "doc": "docs/planning/risk-and-compliance.md" },
+    { "id": "t030", "title": "Bind event insurance (public liability)", "area": "ops", "due": "2026-10-23", "status": "todo", "doc": "docs/planning/risk-and-compliance.md" },
+    { "id": "t031", "title": "Speakers confirmed; programme v2", "area": "programme", "due": "2026-10-23", "status": "todo" },
+    { "id": "t032", "title": "Draft chauffeur schedule from flights", "area": "ops", "due": "2026-10-23", "status": "todo" },
+    { "id": "t033", "title": "Personalisation plan per resident", "area": "guests", "due": "2026-10-23", "status": "todo" },
+
+    { "id": "t034", "title": "Publish programme; open session RSVPs", "area": "programme", "due": "2026-10-28", "status": "todo" },
+    { "id": "t035", "title": "Content templates and shared drive ready", "area": "content", "due": "2026-10-30", "status": "todo", "doc": "docs/content/strategy.md" },
+    { "id": "t036", "title": "Lock content calendar; map sponsor deliverables", "area": "content", "due": "2026-10-30", "status": "todo" },
+    { "id": "t037", "title": "Draft welcome speech", "area": "guests", "due": "2026-10-30", "status": "todo", "doc": "docs/concierge/welcome-speech.md" },
+    { "id": "t038", "title": "Print order: cards, signage, menus", "area": "arrival", "due": "2026-10-30", "status": "todo" },
+    { "id": "t039", "title": "\"Partner with us\" page live", "area": "sponsors", "due": "2026-10-30", "status": "todo", "doc": "docs/content/strategy.md" },
+
+    { "id": "t040", "title": "Send guest dossiers", "area": "guests", "due": "2026-11-02", "status": "todo", "doc": "docs/guests/guest-journey.md" },
+    { "id": "t041", "title": "Open resident WhatsApp group", "area": "guests", "due": "2026-11-02", "status": "todo" },
+    { "id": "t042", "title": "Staff and crew briefing pack", "area": "ops", "due": "2026-11-04", "status": "todo", "doc": "docs/concierge/service-standards.md" },
+    { "id": "t043", "title": "Lock run-of-show", "area": "programme", "due": "2026-11-06", "status": "todo" },
+    { "id": "t044", "title": "Neighbour letters delivered", "area": "house", "due": "2026-11-06", "status": "todo", "doc": "docs/planning/risk-and-compliance.md" },
+
+    { "id": "t045", "title": "Assemble and personalise welcome kits", "area": "guests", "due": "2026-11-12", "status": "todo" },
+    { "id": "t046", "title": "Final attendee confirmations; export door lists", "area": "arrival", "due": "2026-11-12", "status": "todo" },
+    { "id": "t047", "title": "Tech rehearsal plan: studio, stream, Wi-Fi", "area": "content", "due": "2026-11-12", "status": "todo" },
+    { "id": "t048", "title": "Print emergency sheet", "area": "ops", "due": "2026-11-12", "status": "todo", "doc": "docs/concierge/emergency.md" },
+    { "id": "t049", "title": "Confirm every car; send pickup messages", "area": "ops", "due": "2026-11-13", "status": "todo" },
+
+    { "id": "t050", "title": "Thank-yous and photo galleries sent", "area": "arrival", "due": "2026-11-21", "status": "todo" },
+    { "id": "t051", "title": "Personal content packs to residents", "area": "content", "due": "2026-11-21", "status": "todo" },
+    { "id": "t052", "title": "Publish hero film", "area": "content", "due": "2026-11-27", "status": "todo" },
+    { "id": "t053", "title": "Deliver sponsor reports", "area": "sponsors", "due": "2026-11-27", "status": "todo", "doc": "docs/post-event/sponsor-report-template.md" },
+    { "id": "t054", "title": "Charter reconciliation", "area": "guests", "due": "2026-11-30", "status": "todo", "doc": "docs/guests/house-charter.md" },
+    { "id": "t055", "title": "Retro and next-house outreach", "area": "ops", "due": "2026-12-04", "status": "todo", "doc": "docs/post-event/retro-template.md" }
+  ]
+}
