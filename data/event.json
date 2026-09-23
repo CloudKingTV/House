@@ -3,7 +3,7 @@
   "edition": "Solana Breakpoint 2026",
   "city": "London",
   "area": "Kensington, near Olympia (W8 / W14)",
-  "xHandle": "TBC",
+  "xHandle": "@SagaMobileDAO",
   "conference": {
     "name": "Solana Breakpoint 2026",
     "venue": "Olympia London, Hammersmith Road, W14 8UX",
@@ -13,52 +13,177 @@
   "house": {
     "checkIn": "2026-11-14",
     "checkOut": "2026-11-20",
-    "checkOutConfirmed": false,
+    "checkOutConfirmed": true,
     "address": null
   },
   "capacity": {
-    "residents": 12,
+    "residents": 8,
     "attendees": 300,
     "sponsors": 12
   },
   "fxUsdPerGbp": 1.34,
   "keyDates": [
-    { "date": "2026-10-02", "label": "House contract signed", "kind": "deadline" },
-    { "date": "2026-10-02", "label": "Flagship venue decided (model A / B / C)", "kind": "deadline" },
-    { "date": "2026-10-09", "label": "All residents invited, charter sent", "kind": "deadline" },
-    { "date": "2026-10-16", "label": "Welcome kits and attendee gifts ordered", "kind": "deadline" },
-    { "date": "2026-10-23", "label": "Sponsor sign-off for kit, print and branding", "kind": "deadline" },
-    { "date": "2026-10-23", "label": "Temporary Event Notice(s) submitted", "kind": "deadline" },
-    { "date": "2026-11-02", "label": "Guest dossiers sent", "kind": "deadline" },
-    { "date": "2026-11-06", "label": "Run-of-show locked", "kind": "deadline" },
-    { "date": "2026-11-14", "label": "Doors open: residents arrive", "kind": "milestone" },
-    { "date": "2026-11-15", "label": "Breakpoint Day 1", "kind": "milestone" },
-    { "date": "2026-11-18", "label": "SagaDAO Day (post-conference)", "kind": "milestone" },
-    { "date": "2026-11-27", "label": "Hero film and sponsor reports out", "kind": "deadline" }
+    {
+      "date": "2026-10-02",
+      "label": "House contract signed",
+      "kind": "deadline"
+    },
+    {
+      "date": "2026-10-02",
+      "label": "Flagship venue decided (buyout or partner-hosted)",
+      "kind": "deadline"
+    },
+    {
+      "date": "2026-10-09",
+      "label": "All residents invited, charter sent",
+      "kind": "deadline"
+    },
+    {
+      "date": "2026-10-16",
+      "label": "Welcome kits and attendee gifts ordered",
+      "kind": "deadline"
+    },
+    {
+      "date": "2026-10-23",
+      "label": "Sponsor sign-off for kit, print and branding",
+      "kind": "deadline"
+    },
+    {
+      "date": "2026-10-23",
+      "label": "Temporary Event Notice(s) submitted",
+      "kind": "deadline"
+    },
+    {
+      "date": "2026-11-02",
+      "label": "Guest dossiers sent",
+      "kind": "deadline"
+    },
+    {
+      "date": "2026-11-06",
+      "label": "Run-of-show locked",
+      "kind": "deadline"
+    },
+    {
+      "date": "2026-11-14",
+      "label": "Doors open: residents arrive",
+      "kind": "milestone"
+    },
+    {
+      "date": "2026-11-15",
+      "label": "Breakpoint Day 1",
+      "kind": "milestone"
+    },
+    {
+      "date": "2026-11-18",
+      "label": "SagaDAO Day (post-conference)",
+      "kind": "milestone"
+    },
+    {
+      "date": "2026-11-27",
+      "label": "Hero film and sponsor reports out",
+      "kind": "deadline"
+    }
   ],
   "goals": [
-    { "label": "Sponsor revenue vs total cost", "target": 100, "actual": null, "unit": "%" },
-    { "label": "Sponsors signed", "target": 12, "actual": 0, "unit": "" },
-    { "label": "Sponsors who'd return", "target": 9, "actual": null, "unit": "of 12" },
-    { "label": "Inbound sponsor enquiries within 30 days", "target": 10, "actual": 0, "unit": "" },
-    { "label": "Programme attendance (unique)", "target": 300, "actual": null, "unit": "" },
-    { "label": "Posts published during the week", "target": 150, "actual": 0, "unit": "" },
-    { "label": "Median moment-to-post", "target": 120, "actual": null, "unit": "min" },
-    { "label": "Resident charter compliance", "target": 12, "actual": null, "unit": "of 12" },
-    { "label": "Guest NPS", "target": 70, "actual": null, "unit": "" }
+    {
+      "label": "Total spend within envelope",
+      "target": 65000,
+      "actual": null,
+      "unit": "USD max"
+    },
+    {
+      "label": "Sponsor revenue vs total cost",
+      "target": 100,
+      "actual": null,
+      "unit": "%"
+    },
+    {
+      "label": "Sponsors signed",
+      "target": 12,
+      "actual": 0,
+      "unit": ""
+    },
+    {
+      "label": "Sponsors who'd return",
+      "target": 9,
+      "actual": null,
+      "unit": "of 12"
+    },
+    {
+      "label": "Inbound sponsor enquiries within 30 days",
+      "target": 10,
+      "actual": 0,
+      "unit": ""
+    },
+    {
+      "label": "Programme attendance (unique)",
+      "target": 300,
+      "actual": null,
+      "unit": ""
+    },
+    {
+      "label": "Posts published during the week",
+      "target": 150,
+      "actual": 0,
+      "unit": ""
+    },
+    {
+      "label": "Median moment-to-post",
+      "target": 120,
+      "actual": null,
+      "unit": "min"
+    },
+    {
+      "label": "Resident charter compliance",
+      "target": 8,
+      "actual": null,
+      "unit": "of 8"
+    },
+    {
+      "label": "Guest NPS",
+      "target": 70,
+      "actual": null,
+      "unit": ""
+    }
   ],
   "fixes": [
-    { "lesson": "Guests didn't know what was going on", "fix": "Charter, dossier, nightly briefing, 09:15 stand-up", "status": "planned" },
-    { "lesson": "Free rooms, no expectations", "fix": "Room is complimentary in exchange for signed content commitments", "status": "planned" },
-    { "lesson": "All party, nothing to sponsor", "fix": "Programme of sponsorable formats; party is the flagship night", "status": "planned" },
-    { "lesson": "Slow, polished content that didn't convert", "fix": "Same-day engine, 2 h clips, 23:00 recap, CTAs and enquiry tracking", "status": "planned" },
-    { "lesson": "Getting in didn't feel special", "fix": "Welcome kit, speech, named door welcome, gift, next-morning photos", "status": "planned" }
+    {
+      "lesson": "Guests didn't know what was going on",
+      "fix": "Charter, dossier, nightly briefing, 09:15 stand-up",
+      "status": "planned"
+    },
+    {
+      "lesson": "Free rooms, no expectations",
+      "fix": "Room is complimentary in exchange for signed content commitments",
+      "status": "planned"
+    },
+    {
+      "lesson": "All party, nothing to sponsor",
+      "fix": "Programme of sponsorable formats; party is the flagship night",
+      "status": "planned"
+    },
+    {
+      "lesson": "Slow, polished content that didn't convert",
+      "fix": "Same-day engine, 2 h clips, 23:00 recap, CTAs and enquiry tracking",
+      "status": "planned"
+    },
+    {
+      "lesson": "Getting in didn't feel special",
+      "fix": "Welcome kit, speech, named door welcome, gift, next-morning photos",
+      "status": "planned"
+    },
+    {
+      "lesson": "Overspent: $55k vs $40k it should have cost",
+      "fix": "One budget owner, nothing booked without a budget line, weekly budget check, 10% contingency",
+      "status": "planned"
+    }
   ],
   "openDecisions": [
-    "Checkout on 19 or 20 Nov?",
-    "House model: A (one event house), B (residence + venue) or C (hybrid, recommended)",
+    "The $6k 5-bedroom house: how far from Olympia, and is filming and small gatherings allowed in writing?",
+    "How many residents: 5 (a room each) or up to 8 (some sharing)?",
+    "Flagship venue: a minimum-spend bar or restaurant buyout near Olympia, or partner-hosted",
     "Flagship night: Mon 16 or Tue 17?",
     "Nightly rate stated in the charter",
-    "Sponsorship pricing vs Dubai benchmarks"
+    "Sponsorship pricing vs what Dubai sponsors actually paid"
   ]
 }

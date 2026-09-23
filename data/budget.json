@@ -1,21 +1,149 @@
 {
   "currency": "GBP",
-  "note": "Planned figures are estimates from docs/planning/budget.md. Replace with quotes.",
+  "note": "Planned to the midpoint of the $50–65k envelope. House is a real quote; everything else is an estimate until quoted.",
   "lines": [
-    { "id": "house", "category": "House", "item": "Residence, 6 nights, 12 beds", "plannedGbp": 40000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "venue", "category": "Venue", "item": "Flagship venue (if model B/C)", "plannedGbp": 10000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "catering", "category": "Food & drink", "item": "Resident breakfasts, dinners, session food", "plannedGbp": 11000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "flagship-fb", "category": "Food & drink", "item": "Flagship night food and licensed bar", "plannedGbp": 18000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "security", "category": "Operations", "item": "SIA door staff and overnight cover", "plannedGbp": 5000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "production", "category": "Content", "item": "Crew, kit and edit", "plannedGbp": 14000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "studio-av", "category": "Content", "item": "Studio set, AV and streaming", "plannedGbp": 5000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "kits", "category": "Hospitality", "item": "Resident welcome kits (12)", "plannedGbp": 4800, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "gifts", "category": "Hospitality", "item": "Attendee gifts (300)", "plannedGbp": 6000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "excursions", "category": "Hospitality", "item": "Excursions and private experiences", "plannedGbp": 8000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "transport", "category": "Operations", "item": "Chauffeur: airport, Olympia, excursions", "plannedGbp": 3500, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "staff", "category": "Operations", "item": "House manager, concierge, housekeeping", "plannedGbp": 6000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "print", "category": "Hospitality", "item": "Print, signage, florals, styling", "plannedGbp": 3500, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "insurance", "category": "Operations", "item": "Insurance and licensing", "plannedGbp": 1000, "committedGbp": 0, "paidGbp": 0, "estimate": true },
-    { "id": "contingency", "category": "Contingency", "item": "10% contingency", "plannedGbp": 13580, "committedGbp": 0, "paidGbp": 0, "estimate": true }
-  ]
+    {
+      "id": "house",
+      "category": "House",
+      "item": "Residence: 5 bedrooms, 14–20 Nov ($6,000 quote)",
+      "plannedGbp": 4480,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": false
+    },
+    {
+      "id": "venue",
+      "category": "Venue",
+      "item": "Flagship venue: min-spend buyout or partner-hosted",
+      "plannedGbp": 5000,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "catering",
+      "category": "Food & drink",
+      "item": "Resident breakfasts and 3 dinners",
+      "plannedGbp": 3500,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "flagship-fb",
+      "category": "Food & drink",
+      "item": "Flagship night bar and food (counts toward min spend)",
+      "plannedGbp": 6000,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "security",
+      "category": "Operations",
+      "item": "SIA door staff, flagship night",
+      "plannedGbp": 2000,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "production",
+      "category": "Content",
+      "item": "Shooter-editor, photographer, edit",
+      "plannedGbp": 5000,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "studio-av",
+      "category": "Content",
+      "item": "Studio kit hire, mics, stream",
+      "plannedGbp": 1500,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "kits",
+      "category": "Hospitality",
+      "item": "Resident welcome kits (8 × £300)",
+      "plannedGbp": 2400,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "gifts",
+      "category": "Hospitality",
+      "item": "Attendee gifts (300 × £8)",
+      "plannedGbp": 2400,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "excursions",
+      "category": "Hospitality",
+      "item": "Excursions (aim for partner-funded)",
+      "plannedGbp": 1500,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "transport",
+      "category": "Operations",
+      "item": "Airport cars and excursions",
+      "plannedGbp": 1500,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "staff",
+      "category": "Operations",
+      "item": "House manager and housekeeping",
+      "plannedGbp": 2000,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "print",
+      "category": "Hospitality",
+      "item": "Print, signage, florals",
+      "plannedGbp": 1200,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "insurance",
+      "category": "Operations",
+      "item": "Insurance and licensing",
+      "plannedGbp": 800,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    },
+    {
+      "id": "contingency",
+      "category": "Contingency",
+      "item": "10% contingency (Dubai overspent ~$15k)",
+      "plannedGbp": 3928,
+      "committedGbp": 0,
+      "paidGbp": 0,
+      "estimate": true
+    }
+  ],
+  "envelopeUsd": {
+    "low": 50000,
+    "high": 65000
+  },
+  "dubaiUsd": {
+    "actual": 55000,
+    "shouldHaveBeen": 40000
+  }
 }

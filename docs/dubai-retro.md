@@ -36,6 +36,16 @@ This is a living document. Whenever you remember something from Dubai, good or b
 - **Residents:** a chauffeur with a name board, a greeting by name at the door, a handwritten note, a curated [welcome kit](guests/welcome-kit.md), and a welcome dinner with a [speech](concierge/welcome-speech.md).
 - **Attendees:** curated applications, an invitation-grade confirmation, a named welcome at the door, a drink in hand within 30 seconds, a take-home gift, and photos from the night in their inbox the next morning. See [Arrival experience](attendees/arrival-experience.md).
 
+### 6. Budget: $55k spent on what should have cost $40k
+**What happened:** Mistakes along the way pushed the total to about $55k. Run properly, it would have cost about $40k.
+
+**The fix:**
+- **An envelope of $50–65k** for London, planned to the midpoint (see [budget](planning/budget.md)).
+- **One budget owner.** Nothing is booked or paid without a line in `data/budget.json`.
+- **A 10% contingency**, held back and spent only with a decision-log entry.
+- **A weekly budget check** every Monday until the event, and daily during the week.
+- **Written quotes with cancellation terms** before any deposit.
+
 ## What worked (keep it)
 
 _To fill in. What did people love? Which moments got the most engagement? Which sponsors were happy?_
@@ -47,3 +57,5 @@ _To fill in. What did people love? Which moments got the most engagement? Which 
 Add anything you remember, in any order. Date each line.
 
 - 2026-09-23: Initial five lessons captured above.
+- 2026-09-23: Dubai cost about $55k in total. It went over budget because of mistakes and realistically could have been $40k. **What were the mistakes?** List them here so we can guard against each one.
+- 2026-09-23: Fewer residents this year: a 5-bedroom house instead of 12 guests. Fewer people, looked after better.

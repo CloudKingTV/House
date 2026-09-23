@@ -253,7 +253,6 @@
       <div class="fchart" role="img" aria-label="Partner funding: ${usd(securedUsd)} secured, ${usd(talksUsd)} in talks, ${usd(targetUsd)} target, ${usd(budgetUsd)} planned cost">
         <div class="fchart-marks">
           <span class="fmark ${side(targetUsd)}" style="left:${at(targetUsd)}">Target ${compact(targetUsd, '$')}</span>
-          <span class="fmark cost ${side(budgetUsd)}" style="left:${at(budgetUsd)}">Cost ${compact(budgetUsd, '$')}</span>
         </div>
         <div class="fchart-bar">
           ${ticks.map((v) => `<i class="ftick" style="left:${at(v)}"></i>`).join('')}
@@ -261,6 +260,9 @@
           <span class="fill" style="width:${at(securedUsd)}"></span>
           <i class="fline" style="left:${at(targetUsd)}"></i>
           <i class="fline cost" style="left:${at(budgetUsd)}"></i>
+        </div>
+        <div class="fchart-marks below">
+          <span class="fmark cost ${side(budgetUsd)}" style="left:${at(budgetUsd)}">Cost ${compact(budgetUsd, '$')}</span>
         </div>
         <div class="fchart-axis">${ticks.map((v, i) => `<span style="left:${at(v)}" class="${i === 0 ? 'first' : ''}">${compact(v, '$')}</span>`).join('')}</div>
       </div>`;
@@ -326,27 +328,32 @@
   function renderRooms() {
     const T = guests.commitmentTargets;
     const targetTotal = Object.values(T).reduce((a, b) => a + b, 0);
-    const byRoom = new Map(guests.guests.filter((g) => g.room).map((g) => [g.room, g]));
     const unroomed = guests.guests.filter((g) => !g.room && g.status !== 'declined');
     const count = (f) => accepted.filter(f).length;
     const check = (ok, label) => `<span class="pill ${ok ? 'good' : ''}">${ok ? '✓ ' : ''}${label}</span>`;
+    const beds = sum(guests.rooms, (r) => r.beds);
 
-    const keys = Array.from({ length: event.capacity.residents }, (_, i) => {
-      const room = String(i + 1).padStart(2, '0');
-      const g = byRoom.get(room);
-      if (!g) {
-        return `<div class="key vacant"><span class="key-num">${room}</span><span class="key-name">Unassigned</span><span class="key-foot">Room ${room}</span></div>`;
-      }
+    const occupant = (g) => {
       const doneTotal = Object.keys(T).reduce((a, k) => a + Math.min(g.commitments?.[k] || 0, T[k]), 0);
-      return `<div class="key">
-        <span class="key-num">${room}</span>
+      return `<div class="occupant">
         <span class="key-name">${esc(g.name)}</span>
-        <span class="muted" style="font-size:13px;margin-top:-6px">${esc(g.handle || '')} · ${esc(g.status)}</span>
+        <span class="muted" style="font-size:13px">${esc(g.handle || '')} · ${esc(g.status)}</span>
         <div class="key-checks">
           ${check(g.charterSigned, 'Charter')}${check(g.preferencesReceived, 'Prefs')}${check(g.dossierSent, 'Dossier')}${check(g.carBooked, 'Car')}
         </div>
         ${meter(doneTotal, targetTotal, 'green')}
         <span class="key-foot">Commitments ${doneTotal}/${targetTotal}${g.arrival?.date ? ` · lands ${esc(fmt(g.arrival.date, { weekday: 'short', day: 'numeric' }))} ${esc(g.arrival.time || '')} ${esc(g.arrival.airport || '')}` : ''}</span>
+      </div>`;
+    };
+
+    const keys = guests.rooms.map((r) => {
+      const inRoom = guests.guests.filter((g) => g.room === r.id);
+      const open = r.beds - inRoom.length;
+      return `<div class="key ${inRoom.length ? '' : 'vacant'}">
+        <span class="key-num">${esc(r.id)}</span>
+        <span class="key-foot">${r.beds} bed${r.beds > 1 ? 's' : ''}${r.label ? ' · ' + esc(r.label) : ''}</span>
+        ${inRoom.map(occupant).join('')}
+        ${Array.from({ length: Math.max(0, open) }, () => '<span class="key-name open-bed">Open bed</span>').join('')}
       </div>`;
     }).join('');
 
@@ -354,12 +361,13 @@
       <div class="section-head"><h2 class="section-title">Rooms</h2><a class="eyebrow" href="${docHref('docs/guests/house-charter.md')}">House Charter ↗</a></div>
       <div class="filters" style="margin-bottom:22px">
         <span class="pill">${accepted.length}/${event.capacity.residents} accepted</span>
+        <span class="pill">${guests.rooms.length} rooms · ${beds} beds</span>
         <span class="pill">${count((g) => g.charterSigned)} charters</span>
         <span class="pill">${count((g) => g.preferencesReceived)} preference forms</span>
         <span class="pill">${count((g) => g.dossierSent)} dossiers</span>
         <span class="pill">${count((g) => g.carBooked)} cars</span>
       </div>
-      ${guests.guests.length === 0 ? `<div class="empty" style="margin-bottom:20px">No residents yet. Shortlist 16–18 candidates for 12 rooms and add them to <code>data/guests.json</code>; invitations with the charter go out by ${esc(fmt('2026-10-09'))}.</div>` : ''}
+      ${guests.guests.length === 0 ? `<div class="empty" style="margin-bottom:20px">No residents yet. Shortlist 10–12 candidates for ${event.capacity.residents} places and add them to <code>data/guests.json</code>. ${esc(guests.roomsNote || '')} Invitations with the charter go out by ${esc(fmt('2026-10-09'))}.</div>` : ''}
       <div class="keys">${keys}</div>
       ${unroomed.length ? `
         <div style="margin-top:32px">
@@ -456,19 +464,29 @@
       </div>`;
   }
 
+  function envelopePill() {
+    const env = budget.envelopeUsd;
+    if (!env) return '';
+    const v = plannedGbp * fx;
+    const tone = v > env.high ? 'bad' : v < env.low ? 'good' : 'brass';
+    const word = v > env.high ? 'over envelope' : v < env.low ? 'under envelope' : 'within envelope';
+    return `<span><span class="pill ${tone}">${word} · ${compact(env.low, '$')}–${compact(env.high, '$')}</span></span>`;
+  }
+
   function renderBudget() {
     const cats = [...new Set(budget.lines.map((l) => l.category))];
     const net = securedGbp - plannedGbp;
     return `
       <div class="section-head"><h2 class="section-title">Budget</h2><a class="eyebrow" href="${docHref('docs/planning/budget.md')}">Assumptions ↗</a></div>
       <div class="grid" style="margin-bottom:24px">
-        <div class="panel stat"><span class="eyebrow">Planned</span><span class="stat-value num">${compact(plannedGbp, '£')}</span><span class="stat-note">${budget.lines.some((l) => l.estimate) ? 'Includes estimates' : 'All quoted'}</span></div>
+        <div class="panel stat"><span class="eyebrow">Planned</span><span class="stat-value num">${compact(plannedGbp, '£')}</span><span class="stat-note">≈ ${usd(plannedGbp * fx)}${budget.lines.some((l) => l.estimate) ? ' · includes estimates' : ''}</span>${envelopePill()}</div>
         <div class="panel stat"><span class="eyebrow">Committed</span><span class="stat-value num">${compact(committedGbp, '£')}</span>${meter(committedGbp, plannedGbp)}</div>
         <div class="panel stat"><span class="eyebrow">Paid</span><span class="stat-value num">${compact(paidGbp, '£')}</span>${meter(paidGbp, plannedGbp)}</div>
         <div class="panel stat"><span class="eyebrow">Partner-funded</span><span class="stat-value num">${compact(securedGbp, '£')}</span><span class="stat-note" style="color:${net < 0 ? 'var(--bad)' : 'var(--good)'}">${net < 0 ? `${gbp(-net)} to find` : `${gbp(net)} surplus`}</span></div>
       </div>
+      ${budget.dubaiUsd ? `<p class="muted" style="margin:-8px 0 16px;font-size:13.5px">Dubai cost ${usd(budget.dubaiUsd.actual)}; it should have been ${usd(budget.dubaiUsd.shouldHaveBeen)}. Nothing gets booked without a line here.</p>` : ''}
       <div class="panel panel-flush table-wrap"><table>
-        <thead><tr><th>Line</th><th class="r">Planned</th><th class="r">Committed</th><th class="r">Paid</th><th class="bar-cell">Committed</th></tr></thead>
+        <thead><tr><th>Line</th><th class="r">Planned</th><th class="r">Committed</th><th class="r">Paid</th><th class="bar-cell">Progress</th></tr></thead>
         <tbody>
           ${cats.map((c) => `<tr class="group"><td colspan="5">${esc(c)}</td></tr>` + budget.lines.filter((l) => l.category === c).map((l) => `<tr>
             <td>${esc(l.item)} ${l.estimate ? '<span class="pill" style="margin-left:4px">est.</span>' : ''}</td>

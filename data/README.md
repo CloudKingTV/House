@@ -73,7 +73,7 @@ Append to `guests` in `guests.json`:
 }
 ```
 
-- `room`: `"01"` to `"12"`, or `null` if not yet assigned
+- `room`: a room id from `rooms` (e.g. `"01"`), or `null` if not yet assigned. Each room has a `beds` count, and the build fails if a room is over-assigned. Update `rooms` once the floor plan is confirmed.
 - `commitments`: counts done so far. Targets live in `commitmentTargets`.
 - **No medical notes, passport numbers or home addresses here.**
 

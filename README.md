@@ -4,11 +4,13 @@ The operating hub for the SagaDAO House at Solana Breakpoint 2026. Everything we
 
 | | |
 |---|---|
-| **House** | Sat 14 Nov – Thu 19 / Fri 20 Nov 2026 (checkout date to confirm) |
+| **House** | Sat 14 – Fri 20 Nov 2026 |
 | **Breakpoint** | Sun 15 – Tue 17 Nov 2026, Olympia London (Hammersmith Road, W14 8UX) |
-| **Residents** | 12 guests staying at the house |
+| **Residents** | Up to 8 guests in a 5-bedroom house |
 | **Programme audience** | 300+ attendees across the week |
 | **Partners** | 12 sponsors (target) |
+| **Budget** | $50–65k all-in (Dubai cost $55k and should have cost $40k) |
+| **X** | [@SagaMobileDAO](https://x.com/SagaMobileDAO) |
 
 ## The standard
 

@@ -5,7 +5,7 @@ window.HOUSE_DATA = {
     "edition": "Solana Breakpoint 2026",
     "city": "London",
     "area": "Kensington, near Olympia (W8 / W14)",
-    "xHandle": "TBC",
+    "xHandle": "@SagaMobileDAO",
     "conference": {
       "name": "Solana Breakpoint 2026",
       "venue": "Olympia London, Hammersmith Road, W14 8UX",
@@ -15,11 +15,11 @@ window.HOUSE_DATA = {
     "house": {
       "checkIn": "2026-11-14",
       "checkOut": "2026-11-20",
-      "checkOutConfirmed": false,
+      "checkOutConfirmed": true,
       "address": null
     },
     "capacity": {
-      "residents": 12,
+      "residents": 8,
       "attendees": 300,
       "sponsors": 12
     },
@@ -32,7 +32,7 @@ window.HOUSE_DATA = {
       },
       {
         "date": "2026-10-02",
-        "label": "Flagship venue decided (model A / B / C)",
+        "label": "Flagship venue decided (buyout or partner-hosted)",
         "kind": "deadline"
       },
       {
@@ -88,6 +88,12 @@ window.HOUSE_DATA = {
     ],
     "goals": [
       {
+        "label": "Total spend within envelope",
+        "target": 65000,
+        "actual": null,
+        "unit": "USD max"
+      },
+      {
         "label": "Sponsor revenue vs total cost",
         "target": 100,
         "actual": null,
@@ -131,9 +137,9 @@ window.HOUSE_DATA = {
       },
       {
         "label": "Resident charter compliance",
-        "target": 12,
+        "target": 8,
         "actual": null,
-        "unit": "of 12"
+        "unit": "of 8"
       },
       {
         "label": "Guest NPS",
@@ -167,14 +173,20 @@ window.HOUSE_DATA = {
         "lesson": "Getting in didn't feel special",
         "fix": "Welcome kit, speech, named door welcome, gift, next-morning photos",
         "status": "planned"
+      },
+      {
+        "lesson": "Overspent: $55k vs $40k it should have cost",
+        "fix": "One budget owner, nothing booked without a budget line, weekly budget check, 10% contingency",
+        "status": "planned"
       }
     ],
     "openDecisions": [
-      "Checkout on 19 or 20 Nov?",
-      "House model: A (one event house), B (residence + venue) or C (hybrid, recommended)",
+      "The $6k 5-bedroom house: how far from Olympia, and is filming and small gatherings allowed in writing?",
+      "How many residents: 5 (a room each) or up to 8 (some sharing)?",
+      "Flagship venue: a minimum-spend bar or restaurant buyout near Olympia, or partner-hosted",
       "Flagship night: Mon 16 or Tue 17?",
       "Nightly rate stated in the charter",
-      "Sponsorship pricing vs Dubai benchmarks"
+      "Sponsorship pricing vs what Dubai sponsors actually paid"
     ]
   },
   "tasks": {
@@ -208,26 +220,42 @@ window.HOUSE_DATA = {
       },
       {
         "id": "t002",
-        "title": "Agree budget envelope",
+        "title": "Agree budget envelope: $50–65k",
         "area": "budget",
         "due": "2026-09-25",
-        "status": "todo",
+        "status": "done",
         "doc": "docs/planning/budget.md"
       },
       {
         "id": "t003",
-        "title": "Decide checkout: 19 or 20 Nov",
+        "title": "Decide checkout: 20 Nov",
         "area": "house",
         "due": "2026-09-25",
-        "status": "todo",
+        "status": "done",
         "doc": "docs/planning/decisions-log.md"
       },
       {
+        "id": "t056",
+        "title": "Vet the $6k house: distance, floor plan, filming and gatherings in writing",
+        "area": "house",
+        "due": "2026-09-28",
+        "status": "todo",
+        "doc": "docs/planning/house-and-venue.md"
+      },
+      {
+        "id": "t057",
+        "title": "Shortlist 3 min-spend buyout venues near Olympia for the flagship night",
+        "area": "house",
+        "due": "2026-09-30",
+        "status": "todo",
+        "doc": "docs/planning/house-and-venue.md"
+      },
+      {
         "id": "t004",
-        "title": "Shortlist 5 houses near Olympia",
+        "title": "Shortlist houses near Olympia (one candidate: $6k, 5 bed)",
         "area": "house",
         "due": "2026-09-25",
-        "status": "todo",
+        "status": "doing",
         "doc": "docs/planning/house-and-venue.md"
       },
       {
@@ -248,7 +276,7 @@ window.HOUSE_DATA = {
       },
       {
         "id": "t007",
-        "title": "Shortlist 16–18 resident candidates",
+        "title": "Shortlist 10–12 resident candidates for 8 places",
         "area": "guests",
         "due": "2026-09-26",
         "status": "todo",
@@ -288,7 +316,7 @@ window.HOUSE_DATA = {
       },
       {
         "id": "t012",
-        "title": "Decide flagship venue model (A / B / C)",
+        "title": "Decide flagship venue: min-spend buyout or partner-hosted",
         "area": "house",
         "due": "2026-10-02",
         "status": "todo",
@@ -636,7 +664,7 @@ window.HOUSE_DATA = {
         "id": "presenting",
         "name": "Presenting Partner",
         "slots": 1,
-        "priceUsd": 40000,
+        "priceUsd": 20000,
         "owns": [
           "The house name, welcome speech and flagship toast"
         ]
@@ -645,7 +673,7 @@ window.HOUSE_DATA = {
         "id": "programme",
         "name": "Programme Partner",
         "slots": 3,
-        "priceUsd": 15000,
+        "priceUsd": 8000,
         "owns": [
           "Saga Sessions Night 1",
           "Saga Sessions Night 2",
@@ -657,7 +685,7 @@ window.HOUSE_DATA = {
         "id": "experience",
         "name": "Experience Partner",
         "slots": 4,
-        "priceUsd": 8000,
+        "priceUsd": 5000,
         "owns": [
           "Builder Breakfast",
           "Closed Door roundtable",
@@ -671,7 +699,7 @@ window.HOUSE_DATA = {
         "id": "supporter",
         "name": "Supporter",
         "slots": 4,
-        "priceUsd": 4000,
+        "priceUsd": 2500,
         "owns": [
           "Kit or gift inclusion"
         ]
@@ -686,6 +714,29 @@ window.HOUSE_DATA = {
       "accepted",
       "declined"
     ],
+    "rooms": [
+      {
+        "id": "01",
+        "beds": 2
+      },
+      {
+        "id": "02",
+        "beds": 2
+      },
+      {
+        "id": "03",
+        "beds": 2
+      },
+      {
+        "id": "04",
+        "beds": 1
+      },
+      {
+        "id": "05",
+        "beds": 1
+      }
+    ],
+    "roomsNote": "Assumed layout for the $6k 5-bedroom house. Update beds once the floor plan is confirmed.",
     "commitmentTargets": {
       "posts": 6,
       "amplify": 6,
@@ -1093,7 +1144,7 @@ window.HOUSE_DATA = {
     ],
     "baseline": {
       "followers": null,
-      "note": "Record the SagaDAO account follower count on 13 Nov"
+      "note": "Record the @SagaMobileDAO follower count on 13 Nov"
     },
     "metrics": [
       {
@@ -1138,22 +1189,22 @@ window.HOUSE_DATA = {
   },
   "budget": {
     "currency": "GBP",
-    "note": "Planned figures are estimates from docs/planning/budget.md. Replace with quotes.",
+    "note": "Planned to the midpoint of the $50–65k envelope. House is a real quote; everything else is an estimate until quoted.",
     "lines": [
       {
         "id": "house",
         "category": "House",
-        "item": "Residence, 6 nights, 12 beds",
-        "plannedGbp": 40000,
+        "item": "Residence: 5 bedrooms, 14–20 Nov ($6,000 quote)",
+        "plannedGbp": 4480,
         "committedGbp": 0,
         "paidGbp": 0,
-        "estimate": true
+        "estimate": false
       },
       {
         "id": "venue",
         "category": "Venue",
-        "item": "Flagship venue (if model B/C)",
-        "plannedGbp": 10000,
+        "item": "Flagship venue: min-spend buyout or partner-hosted",
+        "plannedGbp": 5000,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1161,8 +1212,8 @@ window.HOUSE_DATA = {
       {
         "id": "catering",
         "category": "Food & drink",
-        "item": "Resident breakfasts, dinners, session food",
-        "plannedGbp": 11000,
+        "item": "Resident breakfasts and 3 dinners",
+        "plannedGbp": 3500,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1170,8 +1221,8 @@ window.HOUSE_DATA = {
       {
         "id": "flagship-fb",
         "category": "Food & drink",
-        "item": "Flagship night food and licensed bar",
-        "plannedGbp": 18000,
+        "item": "Flagship night bar and food (counts toward min spend)",
+        "plannedGbp": 6000,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1179,8 +1230,8 @@ window.HOUSE_DATA = {
       {
         "id": "security",
         "category": "Operations",
-        "item": "SIA door staff and overnight cover",
-        "plannedGbp": 5000,
+        "item": "SIA door staff, flagship night",
+        "plannedGbp": 2000,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1188,8 +1239,8 @@ window.HOUSE_DATA = {
       {
         "id": "production",
         "category": "Content",
-        "item": "Crew, kit and edit",
-        "plannedGbp": 14000,
+        "item": "Shooter-editor, photographer, edit",
+        "plannedGbp": 5000,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1197,8 +1248,8 @@ window.HOUSE_DATA = {
       {
         "id": "studio-av",
         "category": "Content",
-        "item": "Studio set, AV and streaming",
-        "plannedGbp": 5000,
+        "item": "Studio kit hire, mics, stream",
+        "plannedGbp": 1500,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1206,8 +1257,8 @@ window.HOUSE_DATA = {
       {
         "id": "kits",
         "category": "Hospitality",
-        "item": "Resident welcome kits (12)",
-        "plannedGbp": 4800,
+        "item": "Resident welcome kits (8 × £300)",
+        "plannedGbp": 2400,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1215,8 +1266,8 @@ window.HOUSE_DATA = {
       {
         "id": "gifts",
         "category": "Hospitality",
-        "item": "Attendee gifts (300)",
-        "plannedGbp": 6000,
+        "item": "Attendee gifts (300 × £8)",
+        "plannedGbp": 2400,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1224,8 +1275,8 @@ window.HOUSE_DATA = {
       {
         "id": "excursions",
         "category": "Hospitality",
-        "item": "Excursions and private experiences",
-        "plannedGbp": 8000,
+        "item": "Excursions (aim for partner-funded)",
+        "plannedGbp": 1500,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1233,8 +1284,8 @@ window.HOUSE_DATA = {
       {
         "id": "transport",
         "category": "Operations",
-        "item": "Chauffeur: airport, Olympia, excursions",
-        "plannedGbp": 3500,
+        "item": "Airport cars and excursions",
+        "plannedGbp": 1500,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1242,8 +1293,8 @@ window.HOUSE_DATA = {
       {
         "id": "staff",
         "category": "Operations",
-        "item": "House manager, concierge, housekeeping",
-        "plannedGbp": 6000,
+        "item": "House manager and housekeeping",
+        "plannedGbp": 2000,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1251,8 +1302,8 @@ window.HOUSE_DATA = {
       {
         "id": "print",
         "category": "Hospitality",
-        "item": "Print, signage, florals, styling",
-        "plannedGbp": 3500,
+        "item": "Print, signage, florals",
+        "plannedGbp": 1200,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1261,7 +1312,7 @@ window.HOUSE_DATA = {
         "id": "insurance",
         "category": "Operations",
         "item": "Insurance and licensing",
-        "plannedGbp": 1000,
+        "plannedGbp": 800,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1269,13 +1320,21 @@ window.HOUSE_DATA = {
       {
         "id": "contingency",
         "category": "Contingency",
-        "item": "10% contingency",
-        "plannedGbp": 13580,
+        "item": "10% contingency (Dubai overspent ~$15k)",
+        "plannedGbp": 3928,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
       }
-    ]
+    ],
+    "envelopeUsd": {
+      "low": 50000,
+      "high": 65000
+    },
+    "dubaiUsd": {
+      "actual": 55000,
+      "shouldHaveBeen": 40000
+    }
   }
 };
-window.HOUSE_BUILT_AT = "2026-09-23T16:21:22.135Z";
+window.HOUSE_BUILT_AT = "2026-09-23T16:44:51.845Z";

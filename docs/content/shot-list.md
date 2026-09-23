@@ -7,7 +7,7 @@ A must-get list for the crew. Tick shots off on the day; missed shots get reassi
 - [ ] Key tag and handwritten note detail
 - [ ] Resident reactions at the door. **Interior only; no street or front door.**
 - [ ] Welcome Dinner: the table before guests sit, the speech, the toast
-- [ ] Group portrait of all 12 residents (the week's anchor image)
+- [ ] Group portrait of all the residents (the week's anchor image)
 
 ## Every day
 - [ ] Morning stand-up, 10 seconds of "the team getting ready"

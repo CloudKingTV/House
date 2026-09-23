@@ -16,7 +16,7 @@ Breakpoint runs **Sun 15 – Tue 17** at Olympia. We keep daytime light while th
 ## Sun 15 Nov: Breakpoint Day 1
 | Time | What | Who |
 |---|---|---|
-| 07:45 | **Builder Breakfast #1** | 25 invited |
+| 07:45 | **Builder Breakfast #1** (at the house if it seats ~16, otherwise a private room nearby) | 16–25 invited |
 | 09:15 | Stand-up (10 min) | Residents |
 | 09:30 | Car/walk to Olympia | Residents |
 | 10:00–17:00 | **House Studio** recording (speakers booked by slot) | Speakers, crew |
@@ -55,7 +55,7 @@ Breakpoint runs **Sun 15 – Tue 17** at Olympia. We keep daytime light while th
 | Daytime | Excursion (optional choice of two) | Residents |
 | 19:30 | **Farewell Dinner**, with each resident's week in one sentence | Residents, plus partners |
 
-## Fri 20 Nov: Departures *(if we keep the 20th)*
+## Fri 20 Nov: Departures
 | Time | What |
 |---|---|
 | From 07:00 | Farewell breakfast, departure gift and cars to the airport |

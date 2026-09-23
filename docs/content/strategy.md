@@ -47,7 +47,7 @@ Every piece of content does one of three jobs.
 
 | Job | Call to action | Measured by |
 |---|---|---|
-| **Build the audience** | Follow the SagaDAO account | Follower growth, profile visits |
+| **Build the audience** | Follow [@SagaMobileDAO](https://x.com/SagaMobileDAO) | Follower growth, profile visits |
 | **Fill the room** | Register for [session] on Luma | Luma registrations per post (UTM links) |
 | **Sell the next house** | "Partner with the next SagaDAO House" → link or DM | **Inbound sponsor enquiries** |
 

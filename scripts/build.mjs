@@ -73,15 +73,19 @@ for (const s of sponsors.sponsors) {
 
 // guests
 checkUniqueIds('guests', guests.guests);
-const rooms = new Map();
+const roomBeds = new Map((guests.rooms || []).map((r) => [r.id, r.beds]));
+if (!roomBeds.size) fail('guests', '"rooms" must list at least one room');
+const occupancy = new Map();
 for (const g of guests.guests) {
   checkEnum('guests', `${g.id}.status`, g.status, guests.statuses);
   if (g.room !== null && g.room !== undefined) {
-    if (!/^\d{2}$/.test(g.room) || +g.room < 1 || +g.room > event.capacity.residents) {
-      fail('guests', `${g.id}.room "${g.room}" must be "01"–"${String(event.capacity.residents).padStart(2, '0')}" or null`);
-    } else if (rooms.has(g.room)) {
-      fail('guests', `room ${g.room} is assigned to both ${rooms.get(g.room)} and ${g.id}`);
-    } else rooms.set(g.room, g.id);
+    if (!roomBeds.has(g.room)) {
+      fail('guests', `${g.id}.room "${g.room}" is not one of the rooms (${[...roomBeds.keys()].join(', ')}) or null`);
+    } else {
+      const list = [...(occupancy.get(g.room) || []), g.id];
+      occupancy.set(g.room, list);
+      if (list.length > roomBeds.get(g.room)) fail('guests', `room ${g.room} has ${roomBeds.get(g.room)} bed(s) but is assigned to ${list.join(', ')}`);
+    }
   }
   checkDate('guests', `${g.id}.arrival.date`, g.arrival?.date, true);
   checkDate('guests', `${g.id}.departure.date`, g.departure?.date, true);

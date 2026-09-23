@@ -2,6 +2,8 @@
 
 For residents (and partner guests where it makes sense). Each is an idea to **check for availability, pricing and lead time**, because Breakpoint week is busy. Live status is in `data/experiences.json`.
 
+**Budget:** about £1,500 in total. Treat the signature experiences as **partner-funded** (the London excursion is an Experience Partner slot) and fill the rest with free or low-cost options.
+
 **Planning notes for mid-November:**
 - Daylight is **07:20–16:10**, so book outdoor or view experiences for the afternoon and shoot the content by 15:45.
 - Expect rain. Every outdoor plan needs an indoor alternative.

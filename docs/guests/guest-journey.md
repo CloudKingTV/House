@@ -1,6 +1,6 @@
 # The resident journey
 
-What each of the 12 residents experiences, from the first message to the last. Every step has an owner and a date, and each guest's progress is tracked on the dashboard's **Rooms** view.
+What each resident experiences, from the first message to the last. Every step has an owner and a date, and each guest's progress is tracked on the dashboard's **Rooms** view.
 
 ## 1. Invitation (by 9 Oct)
 - **Personal message first** (DM or call) from the host: "We'd love you in the house."

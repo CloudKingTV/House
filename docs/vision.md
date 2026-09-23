@@ -32,14 +32,15 @@ Set targets once the budget and sponsor deck are locked. Track them in `data/eve
 
 | Measure | Why it matters | Target |
 |---|---|---|
+| Total spend | Stay inside the envelope; Dubai ran $15k over | ≤ $65k |
 | Sponsor revenue vs total cost | The house pays for itself | ≥ 100% |
-| Sponsors signed | Replicate the Dubai count with bigger packages | 12 |
+| Sponsors signed | Match the Dubai count, but sell moments instead of logos | 12 |
 | Sponsors who say they'd return (post-event survey) | The pipeline for the next house | ≥ 9 of 12 |
 | Inbound sponsor enquiries for the next house, within 30 days | Fixes "the event did nothing for future sponsors" | ≥ 10 |
 | Programme attendance (unique check-ins) | Proves people came for the content | 300+ |
 | Posts published during the week (house + guests) | Visibility | 150+ |
 | Median time from moment to post | Speed | ≤ 2 h |
 | Total impressions on X during the week | Reach | set after baseline |
-| Follower growth on the SagaDAO account | Durable audience | set after baseline |
-| Resident charter compliance | Guests delivered what they signed | 12 of 12 |
+| Follower growth on @SagaMobileDAO | Durable audience | set after baseline |
+| Resident charter compliance | Guests delivered what they signed | Every resident |
 | Guest NPS (residents and attendees) | Felt premium | ≥ 70 |

@@ -1,5 +1,33 @@
 {
-  "statuses": ["shortlist", "invited", "accepted", "declined"],
+  "statuses": [
+    "shortlist",
+    "invited",
+    "accepted",
+    "declined"
+  ],
+  "rooms": [
+    {
+      "id": "01",
+      "beds": 2
+    },
+    {
+      "id": "02",
+      "beds": 2
+    },
+    {
+      "id": "03",
+      "beds": 2
+    },
+    {
+      "id": "04",
+      "beds": 1
+    },
+    {
+      "id": "05",
+      "beds": 1
+    }
+  ],
+  "roomsNote": "Assumed layout for the $6k 5-bedroom house. Update beds once the floor plan is confirmed.",
   "commitmentTargets": {
     "posts": 6,
     "amplify": 6,

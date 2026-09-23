@@ -10,7 +10,7 @@ Live task status is tracked in `data/tasks.json` and shown on the dashboard. Thi
 |---|---|---|
 | **Fri 2 Oct** | House contract signed | Supply near Olympia disappears fast during Breakpoint week |
 | **Fri 2 Oct** | Flagship event venue decided (house or separate venue) | Drives capacity, licensing, security and catering |
-| **Fri 9 Oct** | All 12 residents invited, charter sent | They need time to book flights |
+| **Fri 9 Oct** | All residents invited, charter sent | They need time to book flights |
 | **Fri 16 Oct** | Welcome kit and attendee gift orders placed | Custom items typically take 3–4 weeks |
 | **Fri 23 Oct** | Sponsor sign-off deadline for kit, print and branding inclusions | Print and production lead times |
 | **Fri 23 Oct** | Temporary Event Notice(s) submitted, if needed | A standard TEN needs 10 clear working days; submit early to allow for objections. See [risk & compliance](risk-and-compliance.md). |
@@ -22,17 +22,18 @@ Live task status is tracked in `data/tasks.json` and shown on the dashboard. Thi
 
 ### W-8 · w/c 21 Sep: Foundations
 - [ ] Lock goals and targets in `data/event.json`
-- [ ] Agree budget envelope ([budget](budget.md))
-- [ ] Decide checkout date: 19 or 20 Nov
-- [ ] Shortlist 5 houses near Olympia ([criteria](house-and-venue.md))
+- [x] Agree budget envelope: $50–65k ([budget](budget.md))
+- [x] Decide checkout date: **Fri 20 Nov**
+- [ ] Vet the $6k 5-bedroom house: distance to Olympia, floor plan, written OK for filming and small gatherings ([criteria](house-and-venue.md))
+- [ ] Shortlist 3 minimum-spend buyout venues for the flagship night
 - [ ] Draft sponsorship packages and pricing ([packages](../sponsors/packages.md))
 - [ ] Build the prospect list: 30+ projects for 12 slots ([playbook](../sponsors/playbook.md))
-- [ ] Shortlist 16–18 resident candidates for 12 rooms
+- [ ] Shortlist 10–12 resident candidates for up to 8 places
 - [ ] Contact production crew candidates (shooter-editors, photographer)
 
 ### W-7 · w/c 28 Sep: Lock the house
 - [ ] **Sign the house** (event use approved in writing)
-- [ ] **Decide the flagship venue**
+- [ ] **Decide the flagship venue** (buyout or partner-hosted)
 - [ ] Sponsor deck finished; outreach wave 1 sent to all prospects
 - [ ] Brand kit for the house: wordmark, invitation design, colour, type
 - [ ] Book the production crew

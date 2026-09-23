@@ -4,9 +4,9 @@ Dubai had none. In London, the kit is the first physical proof that this house i
 
 **Order by 16 Oct.** Custom items need 3–4 weeks.
 
-## Resident kit (12)
+## Resident kit (one per resident, up to 8)
 
-Presented in a rigid box with a lid (not a tote), numbered 01–12 to match the room.
+Presented in a rigid box with a lid (not a tote), with the resident's name and room number on it.
 
 | Item | Why | Personal? | Sponsor slot? |
 |---|---|---|---|
@@ -21,11 +21,11 @@ Presented in a rigid box with a lid (not a tote), numbered 01–12 to match the 
 | **Presenting partner hero item** | Their best moment of physical contact | | ✔ |
 | **Content card**: QR to the shared drive, the week's hashtag and handles | Makes the charter easy | | |
 
-**Budget:** £250–£500 per kit, excluding sponsor-supplied items.
+**Budget:** about £300 per kit (£2,400 for 8), excluding sponsor-supplied items. The Welcome Kit is an Experience Partner slot, so a partner can fund it.
 
 ## Attendee gift (300)
 
-One good thing is better than five forgettable ones.
+One good thing is better than five forgettable ones. **Budget: about £8 each (£2,400)** unless a partner funds it.
 
 - **Option A:** an enamel pin plus a printed "field guide" card (the programme, a QR for photos from the night, and the partners)
 - **Option B:** a branded compact umbrella for the flagship night. If it's raining, this becomes the moment people remember.
@@ -33,6 +33,6 @@ One good thing is better than five forgettable ones.
 
 **Rule:** partners can add one item to the attendee gift only if it's something you'd keep.
 
-## Departure gift (12)
+## Departure gift (one per resident)
 
 Small and personal: a framed printed photo of them from the week, taken by the house photographer and printed overnight. Hand it over at the farewell breakfast.

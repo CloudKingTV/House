@@ -12,7 +12,7 @@ Each guest's compliance is tracked daily in `data/guests.json` and shown on the 
 You've been invited to stay at SagaDAO House because of what you build and what you share. This charter explains the week and what we ask of you.
 
 ### What the House gives you
-- A private room in a Kensington house, 14–[19/20] November, **complimentary** (market value **£[rate] per night**)
+- A room at the House near Olympia (private or shared, as confirmed in your invitation), 14–20 November, **complimentary** (market value **£[rate] per night**)
 - Airport pickup and drop-off by private car
 - Breakfast every day; the Welcome Dinner, Resident Dinners and Farewell Dinner
 - A welcome kit, and a personal content pack of your photos and clips from the week
@@ -23,7 +23,7 @@ You've been invited to stay at SagaDAO House because of what you build and what 
 Your room is complimentary **in exchange for** the commitments below. They're designed to fit around Breakpoint, not replace it.
 
 1. **Be there for the moments that matter:** the Welcome Dinner (Sat 14), the 09:15 morning stand-up (10 minutes, over breakfast) and the Farewell Dinner.
-2. **Post daily:** at least **1 original post on X per day** from the House or a House moment, tagging the SagaDAO account. Suggested angles and assets will be in the shared drive each morning.
+2. **Post daily:** at least **1 original post on X per day** from the House or a House moment, tagging **@SagaMobileDAO**. Suggested angles and assets will be in the shared drive each morning.
 3. **Amplify:** repost or quote the House account's featured post each day.
 4. **Sit for the House Studio:** one **15-minute recorded conversation** at a time we agree together.
 5. **Take a role:** host, speak at or moderate **at least one** House session (a breakfast, a Saga Session, Demo Hour or Office Hours).

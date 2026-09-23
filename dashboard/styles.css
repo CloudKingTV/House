@@ -416,6 +416,8 @@ p { margin: 0; }
 .fchart { padding-inline: 2px; }
 .fchart-marks, .fchart-axis { position: relative; height: 20px; font-family: var(--mono); font-size: 11.5px; }
 .fchart-marks { margin-top: 8px; }
+.fchart-marks.below { margin-top: 6px; }
+.fchart-marks.below + .fchart-axis { margin-top: 0; }
 .fmark, .fchart-axis span { position: absolute; top: 0; transform: translateX(-50%); white-space: nowrap; }
 .fmark { color: var(--ink); font-weight: 500; }
 .fmark.cost { color: var(--bad); top: 0; }
@@ -434,7 +436,7 @@ p { margin: 0; }
 .fchart-bar .fill.talks { background: var(--brass-soft); }
 .ftick { position: absolute; top: -3px; bottom: -3px; width: 1px; background: var(--line); }
 .fline { position: absolute; top: -8px; bottom: -3px; width: 2px; margin-left: -1px; background: var(--ink); }
-.fline.cost { background: repeating-linear-gradient(var(--bad) 0 3px, transparent 3px 5px); }
+.fline.cost { top: -3px; bottom: -8px; background: repeating-linear-gradient(var(--bad) 0 3px, transparent 3px 5px); }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); margin-top: 12px; }
 .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
 
@@ -482,7 +484,8 @@ p { margin: 0; }
 .keys {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr));
+  align-items: start;
 }
 .key {
   position: relative;
@@ -520,6 +523,24 @@ p { margin: 0; }
 .key-checks { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; }
 .key .meter { width: 100%; }
 .key-foot { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+.occupant {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.open-bed {
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line-strong);
+  color: var(--muted);
+  font-weight: 400;
+  font-style: italic;
+  font-family: var(--display);
+}
 
 /* ─── Programme ────────────────────────────────────────── */
 .day { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px 24px; padding: 22px 0; border-top: 1px solid var(--line-strong); }

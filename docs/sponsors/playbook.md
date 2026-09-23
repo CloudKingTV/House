@@ -24,7 +24,7 @@ Keep it short. Write to the decision-maker (marketing lead, head of ecosystem or
 >
 > Hi [Name],
 >
-> We're running SagaDAO House during Breakpoint London (14–20 Nov): 12 residents, 300+ attendees, and a programme of builder breakfasts, live-streamed sessions and an on-site studio, with same-day content throughout.
+> We're running SagaDAO House during Breakpoint London (14–20 Nov): a house of builders and creators, 300+ attendees, and a programme of builder breakfasts, live-streamed sessions and an on-site studio, with same-day content throughout.
 >
 > I think [their project] should own [specific moment]: [one line on why it fits their narrative right now].
 >

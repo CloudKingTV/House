@@ -1,14 +1,58 @@
 {
-  "stages": ["prospect", "contacted", "talks", "signed", "paid", "delivered", "lost"],
+  "stages": [
+    "prospect",
+    "contacted",
+    "talks",
+    "signed",
+    "paid",
+    "delivered",
+    "lost"
+  ],
   "tiers": [
-    { "id": "presenting", "name": "Presenting Partner", "slots": 1, "priceUsd": 40000,
-      "owns": ["The house name, welcome speech and flagship toast"] },
-    { "id": "programme", "name": "Programme Partner", "slots": 3, "priceUsd": 15000,
-      "owns": ["Saga Sessions Night 1", "Saga Sessions Night 2", "Demo Hour", "House Studio"] },
-    { "id": "experience", "name": "Experience Partner", "slots": 4, "priceUsd": 8000,
-      "owns": ["Builder Breakfast", "Closed Door roundtable", "Resident Dinner", "Welcome Kit", "Arrival Moment", "London excursion"] },
-    { "id": "supporter", "name": "Supporter", "slots": 4, "priceUsd": 4000,
-      "owns": ["Kit or gift inclusion"] }
+    {
+      "id": "presenting",
+      "name": "Presenting Partner",
+      "slots": 1,
+      "priceUsd": 20000,
+      "owns": [
+        "The house name, welcome speech and flagship toast"
+      ]
+    },
+    {
+      "id": "programme",
+      "name": "Programme Partner",
+      "slots": 3,
+      "priceUsd": 8000,
+      "owns": [
+        "Saga Sessions Night 1",
+        "Saga Sessions Night 2",
+        "Demo Hour",
+        "House Studio"
+      ]
+    },
+    {
+      "id": "experience",
+      "name": "Experience Partner",
+      "slots": 4,
+      "priceUsd": 5000,
+      "owns": [
+        "Builder Breakfast",
+        "Closed Door roundtable",
+        "Resident Dinner",
+        "Welcome Kit",
+        "Arrival Moment",
+        "London excursion"
+      ]
+    },
+    {
+      "id": "supporter",
+      "name": "Supporter",
+      "slots": 4,
+      "priceUsd": 2500,
+      "owns": [
+        "Kit or gift inclusion"
+      ]
+    }
   ],
   "sponsors": []
 }
