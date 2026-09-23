@@ -37,12 +37,16 @@ This is a living document. Whenever you remember something from Dubai, good or b
 - **Attendees:** curated applications, an invitation-grade confirmation, a named welcome at the door, a drink in hand within 30 seconds, a take-home gift, and photos from the night in their inbox the next morning. See [Arrival experience](attendees/arrival-experience.md).
 
 ### 6. Budget: $55k spent on what should have cost $40k
-**What happened:** Mistakes along the way pushed the total to about $55k. Run properly, it would have cost about $40k.
+**What happened:** It was our first official event, and costs we hadn't planned for kept appearing. There were props, the vehicle we wanted for transport, a karaoke machine one sponsor needed, and a sponsor asking for a refund partway through. Together those added about $5–10k, and the total came to roughly $55k against the $40k it should have cost.
 
 **The fix:**
 - **An envelope of $50–65k** for London, planned to the midpoint (see [budget](planning/budget.md)).
 - **One budget owner.** Nothing is booked or paid without a line in `data/budget.json`.
-- **A 10% contingency**, held back and spent only with a decision-log entry.
+- **A 15% contingency**, held back and spent only with a decision-log entry. First-event surprises cost 12–25%, so 10% wasn't enough.
+- **Props and styling:** one list, locked by 30 Oct, with its own budget line. Nothing is bought off-list.
+- **Transport:** cars booked by the trip for the airport and excursions. No special vehicle unless a partner pays for it.
+- **Sponsor requests** (like the karaoke machine) are quoted and billed to the sponsor in advance, with a request deadline of 23 Oct ([terms](sponsors/terms.md)).
+- **Refunds:** 50% on signing and the balance by 30 Oct. If a deliverable falls through, we make good with an equivalent, not cash. A live tracker shows sponsors what they're getting, so concerns are caught early ([terms](sponsors/terms.md)).
 - **A weekly budget check** every Monday until the event, and daily during the week.
 - **Written quotes with cancellation terms** before any deposit.
 
@@ -57,5 +61,7 @@ _To fill in. What did people love? Which moments got the most engagement? Which 
 Add anything you remember, in any order. Date each line.
 
 - 2026-09-23: Initial five lessons captured above.
-- 2026-09-23: Dubai cost about $55k in total. It went over budget because of mistakes and realistically could have been $40k. **What were the mistakes?** List them here so we can guard against each one.
+- 2026-09-23: Dubai cost about $55k in total. It went over budget because of mistakes and realistically could have been $40k.
+- 2026-09-23: The overspend came from it being our first event. Unexpected costs: **props**, **the vehicle we wanted for transport**, **a karaoke machine a specific sponsor needed**, and **a sponsor asking for a refund** partway through. Together about $5–10k over. → Budget rules and [sponsor terms](sponsors/terms.md) updated.
+- 2026-09-23: Dubai sponsor tiers were **$10k / $5k / $2.5k**. London moves to **$15k / $10k / $5k**.
 - 2026-09-23: Fewer residents this year: a 5-bedroom house instead of 12 guests. Fewer people, looked after better.

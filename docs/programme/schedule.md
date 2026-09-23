@@ -10,7 +10,7 @@ Breakpoint runs **Sun 15 – Tue 17** at Olympia. We keep daytime light while th
 | All day | **Airport pickups.** Chauffeur with a name board; water, charger and a welcome note in every car | Residents |
 | From 14:00 | **Arrival ritual:** named greeting at the door, a drink in hand, a room tour, a handwritten note and the welcome kit | Residents |
 | 17:30 | Content onboarding (20 min): the charter, the week, the WhatsApp group, the shared drive and the house X account | Residents |
-| 19:30 | **Welcome Dinner**, with the [welcome speech](../concierge/welcome-speech.md) and a toast | Residents, plus Presenting Partner |
+| 19:30 | **Welcome Dinner**, with the [welcome speech](../concierge/welcome-speech.md) and a toast | Residents, plus Founding Partners |
 | 21:30 | First nightly briefing out | Residents |
 
 ## Sun 15 Nov: Breakpoint Day 1

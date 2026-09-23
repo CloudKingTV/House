@@ -10,49 +10,49 @@
   ],
   "tiers": [
     {
-      "id": "presenting",
-      "name": "Presenting Partner",
-      "slots": 1,
-      "priceUsd": 20000,
+      "id": "founding",
+      "name": "Founding Partner",
+      "slots": 2,
+      "priceUsd": 15000,
       "owns": [
-        "The house name, welcome speech and flagship toast"
+        "Saga Sessions Night 1",
+        "Saga Sessions Night 2",
+        "Co-presents the flagship night"
       ]
     },
     {
       "id": "programme",
       "name": "Programme Partner",
-      "slots": 3,
-      "priceUsd": 8000,
+      "slots": 4,
+      "priceUsd": 10000,
       "owns": [
-        "Saga Sessions Night 1",
-        "Saga Sessions Night 2",
         "Demo Hour",
-        "House Studio"
+        "House Studio",
+        "Builder Breakfast",
+        "Closed Door roundtable",
+        "Welcome Dinner"
       ]
     },
     {
       "id": "experience",
       "name": "Experience Partner",
-      "slots": 4,
+      "slots": 6,
       "priceUsd": 5000,
       "owns": [
-        "Builder Breakfast",
-        "Closed Door roundtable",
         "Resident Dinner",
+        "Farewell Dinner",
         "Welcome Kit",
         "Arrival Moment",
-        "London excursion"
-      ]
-    },
-    {
-      "id": "supporter",
-      "name": "Supporter",
-      "slots": 4,
-      "priceUsd": 2500,
-      "owns": [
-        "Kit or gift inclusion"
+        "London excursion",
+        "Office Hours",
+        "Attendee gift"
       ]
     }
   ],
-  "sponsors": []
+  "sponsors": [],
+  "dubaiTiersUsd": [
+    10000,
+    5000,
+    2500
+  ]
 }

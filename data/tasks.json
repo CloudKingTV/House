@@ -45,7 +45,7 @@
     },
     {
       "id": "t056",
-      "title": "Vet the $6k house: distance, floor plan, filming and gatherings in writing",
+      "title": "Vet the Airbnb: distance, “Where you'll sleep”, host's written OK for filming and gatherings",
       "area": "house",
       "due": "2026-09-28",
       "status": "todo",
@@ -69,10 +69,10 @@
     },
     {
       "id": "t005",
-      "title": "Draft sponsorship packages and pricing",
+      "title": "Draft sponsorship packages: $15k / $10k / $5k",
       "area": "sponsors",
       "due": "2026-09-25",
-      "status": "todo",
+      "status": "done",
       "doc": "docs/sponsors/packages.md"
     },
     {
@@ -106,6 +106,14 @@
       "due": "2026-09-30",
       "status": "todo",
       "doc": "docs/sponsors/packages.md"
+    },
+    {
+      "id": "t058",
+      "title": "Sponsor terms sheet: payment schedule, extras, make-good policy",
+      "area": "sponsors",
+      "due": "2026-09-30",
+      "status": "todo",
+      "doc": "docs/sponsors/terms.md"
     },
     {
       "id": "t010",
@@ -313,6 +321,14 @@
       "area": "content",
       "due": "2026-10-30",
       "status": "todo"
+    },
+    {
+      "id": "t059",
+      "title": "Lock the props and styling list; nothing bought off-list",
+      "area": "budget",
+      "due": "2026-10-30",
+      "status": "todo",
+      "doc": "docs/planning/budget.md"
     },
     {
       "id": "t037",

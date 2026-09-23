@@ -22,7 +22,7 @@ Each format is designed to be sponsored, filmed and clipped.
 | **Demo Hour** | Five projects, five minutes each, live-judged, with a prize | 100+ | 60 min | 5 demo clips plus a winner moment | Prize partner; a judge seat |
 | **Closed Door** | Chatham House roundtables (e.g., founders × market makers, founders × VCs) | 12–16 | 90 min | No recording; one post-event takeaway thread | Premium: sponsor chooses the topic and invites half the table |
 | **Office Hours** | 20-min 1:1 slots with experts (legal, tokenomics, GTM, fundraising) | 1:1 | 2–3 h block | Testimonial clips | Expert partner (law firm, fund, infra provider) |
-| **Flagship Night** | The party: curated door, the arrival moment, DJ, a short toast | 300+ | 19:00–late | Arrival, crowd and a toast | Presenting partner |
+| **Flagship Night** | The party: curated door, the arrival moment, DJ, a short toast | 300+ | 19:00–late | Arrival, crowd and a toast | Co-presented by the 2 Founding Partners |
 | **Resident Dinners** | Private dinners for residents plus 4–6 invited guests | 10–14 | 2.5 h | A photo set | Dinner host partner |
 
 ## Programming rules

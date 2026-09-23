@@ -175,18 +175,18 @@ window.HOUSE_DATA = {
         "status": "planned"
       },
       {
-        "lesson": "Overspent: $55k vs $40k it should have cost",
-        "fix": "One budget owner, nothing booked without a budget line, weekly budget check, 10% contingency",
+        "lesson": "Overspent: props, a vehicle, a sponsor's karaoke machine, a refund request",
+        "fix": "Locked props list, no special vehicle, sponsor extras billed to the sponsor, make-good-not-refund terms, 15% contingency",
         "status": "planned"
       }
     ],
     "openDecisions": [
-      "The $6k 5-bedroom house: how far from Olympia, and is filming and small gatherings allowed in writing?",
-      "How many residents: 5 (a room each) or up to 8 (some sharing)?",
+      "Airbnb host: written OK (in Airbnb messages) for content filming and pre-approved gatherings of up to ~16?",
+      "How many residents: 5 (a room each) or up to 8 (some sharing)? Depends on the listing's beds.",
       "Flagship venue: a minimum-spend bar or restaurant buyout near Olympia, or partner-hosted",
       "Flagship night: Mon 16 or Tue 17?",
       "Nightly rate stated in the charter",
-      "Sponsorship pricing vs what Dubai sponsors actually paid"
+      "Sponsor terms: payment schedule and no-cash-refund policy"
     ]
   },
   "tasks": {
@@ -236,7 +236,7 @@ window.HOUSE_DATA = {
       },
       {
         "id": "t056",
-        "title": "Vet the $6k house: distance, floor plan, filming and gatherings in writing",
+        "title": "Vet the Airbnb: distance, “Where you'll sleep”, host's written OK for filming and gatherings",
         "area": "house",
         "due": "2026-09-28",
         "status": "todo",
@@ -260,10 +260,10 @@ window.HOUSE_DATA = {
       },
       {
         "id": "t005",
-        "title": "Draft sponsorship packages and pricing",
+        "title": "Draft sponsorship packages: $15k / $10k / $5k",
         "area": "sponsors",
         "due": "2026-09-25",
-        "status": "todo",
+        "status": "done",
         "doc": "docs/sponsors/packages.md"
       },
       {
@@ -297,6 +297,14 @@ window.HOUSE_DATA = {
         "due": "2026-09-30",
         "status": "todo",
         "doc": "docs/sponsors/packages.md"
+      },
+      {
+        "id": "t058",
+        "title": "Sponsor terms sheet: payment schedule, extras, make-good policy",
+        "area": "sponsors",
+        "due": "2026-09-30",
+        "status": "todo",
+        "doc": "docs/sponsors/terms.md"
       },
       {
         "id": "t010",
@@ -506,6 +514,14 @@ window.HOUSE_DATA = {
         "status": "todo"
       },
       {
+        "id": "t059",
+        "title": "Lock the props and styling list; nothing bought off-list",
+        "area": "budget",
+        "due": "2026-10-30",
+        "status": "todo",
+        "doc": "docs/planning/budget.md"
+      },
+      {
         "id": "t037",
         "title": "Draft welcome speech",
         "area": "guests",
@@ -661,51 +677,51 @@ window.HOUSE_DATA = {
     ],
     "tiers": [
       {
-        "id": "presenting",
-        "name": "Presenting Partner",
-        "slots": 1,
-        "priceUsd": 20000,
+        "id": "founding",
+        "name": "Founding Partner",
+        "slots": 2,
+        "priceUsd": 15000,
         "owns": [
-          "The house name, welcome speech and flagship toast"
+          "Saga Sessions Night 1",
+          "Saga Sessions Night 2",
+          "Co-presents the flagship night"
         ]
       },
       {
         "id": "programme",
         "name": "Programme Partner",
-        "slots": 3,
-        "priceUsd": 8000,
+        "slots": 4,
+        "priceUsd": 10000,
         "owns": [
-          "Saga Sessions Night 1",
-          "Saga Sessions Night 2",
           "Demo Hour",
-          "House Studio"
+          "House Studio",
+          "Builder Breakfast",
+          "Closed Door roundtable",
+          "Welcome Dinner"
         ]
       },
       {
         "id": "experience",
         "name": "Experience Partner",
-        "slots": 4,
+        "slots": 6,
         "priceUsd": 5000,
         "owns": [
-          "Builder Breakfast",
-          "Closed Door roundtable",
           "Resident Dinner",
+          "Farewell Dinner",
           "Welcome Kit",
           "Arrival Moment",
-          "London excursion"
-        ]
-      },
-      {
-        "id": "supporter",
-        "name": "Supporter",
-        "slots": 4,
-        "priceUsd": 2500,
-        "owns": [
-          "Kit or gift inclusion"
+          "London excursion",
+          "Office Hours",
+          "Attendee gift"
         ]
       }
     ],
-    "sponsors": []
+    "sponsors": [],
+    "dubaiTiersUsd": [
+      10000,
+      5000,
+      2500
+    ]
   },
   "guests": {
     "statuses": [
@@ -736,7 +752,7 @@ window.HOUSE_DATA = {
         "beds": 1
       }
     ],
-    "roomsNote": "Assumed layout for the $6k 5-bedroom house. Update beds once the floor plan is confirmed.",
+    "roomsNote": "Assumed layout. Check the Airbnb listing's “Where you'll sleep” section and update the beds per room.",
     "commitmentTargets": {
       "posts": 6,
       "amplify": 6,
@@ -791,7 +807,7 @@ window.HOUSE_DATA = {
             "time": "19:30",
             "title": "Welcome Dinner and welcome speech",
             "format": "dinner",
-            "audience": "Residents + Presenting Partner",
+            "audience": "Residents + Founding Partners",
             "status": "draft"
           },
           {
@@ -1189,12 +1205,12 @@ window.HOUSE_DATA = {
   },
   "budget": {
     "currency": "GBP",
-    "note": "Planned to the midpoint of the $50–65k envelope. House is a real quote; everything else is an estimate until quoted.",
+    "note": "Planned inside the $50–65k envelope with a 15% contingency. House is a real quote; everything else is an estimate until quoted.",
     "lines": [
       {
         "id": "house",
         "category": "House",
-        "item": "Residence: 5 bedrooms, 14–20 Nov ($6,000 quote)",
+        "item": "Airbnb house: 5 bedrooms, 14–20 Nov ($6,000 USD quote; confirm fees)",
         "plannedGbp": 4480,
         "committedGbp": 0,
         "paidGbp": 0,
@@ -1284,7 +1300,7 @@ window.HOUSE_DATA = {
       {
         "id": "transport",
         "category": "Operations",
-        "item": "Airport cars and excursions",
+        "item": "Cars: airport and excursions (no special vehicle)",
         "plannedGbp": 1500,
         "committedGbp": 0,
         "paidGbp": 0,
@@ -1302,8 +1318,8 @@ window.HOUSE_DATA = {
       {
         "id": "print",
         "category": "Hospitality",
-        "item": "Print, signage, florals",
-        "plannedGbp": 1200,
+        "item": "Print, signage, florals, props (locked list by 30 Oct)",
+        "plannedGbp": 1500,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1320,8 +1336,8 @@ window.HOUSE_DATA = {
       {
         "id": "contingency",
         "category": "Contingency",
-        "item": "10% contingency (Dubai overspent ~$15k)",
-        "plannedGbp": 3928,
+        "item": "15% contingency (Dubai's surprises cost $5–10k)",
+        "plannedGbp": 5937,
         "committedGbp": 0,
         "paidGbp": 0,
         "estimate": true
@@ -1337,4 +1353,4 @@ window.HOUSE_DATA = {
     }
   }
 };
-window.HOUSE_BUILT_AT = "2026-09-23T16:44:51.845Z";
+window.HOUSE_BUILT_AT = "2026-09-23T16:51:22.316Z";

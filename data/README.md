@@ -46,7 +46,7 @@ Append to `sponsors` in `sponsors.json`:
 }
 ```
 
-- `tier`: one of the tier ids (`presenting`, `programme`, `experience`, `supporter`)
+- `tier`: one of the tier ids (`founding`, `programme`, `experience`)
 - `stage`: one of `prospect`, `contacted`, `talks`, `signed`, `paid`, `delivered`, `lost`
 - Tag enquiries for the next house with `"tags": ["next-house"]`
 
@@ -76,6 +76,12 @@ Append to `guests` in `guests.json`:
 - `room`: a room id from `rooms` (e.g. `"01"`), or `null` if not yet assigned. Each room has a `beds` count, and the build fails if a room is over-assigned. Update `rooms` once the floor plan is confirmed.
 - `commitments`: counts done so far. Targets live in `commitmentTargets`.
 - **No medical notes, passport numbers or home addresses here.**
+
+## Budget lines
+
+Each line in `budget.json` has `plannedGbp`, `committedGbp` and `paidGbp`. Optional flags:
+- `"estimate": true` until a written quote replaces the number
+- `"partnerFunded": true` when a sponsor pays for it (including extras they asked for; see `docs/sponsors/terms.md`)
 
 ## Logging a notable post
 

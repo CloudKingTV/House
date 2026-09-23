@@ -1,11 +1,11 @@
 {
   "currency": "GBP",
-  "note": "Planned to the midpoint of the $50–65k envelope. House is a real quote; everything else is an estimate until quoted.",
+  "note": "Planned inside the $50–65k envelope with a 15% contingency. House is a real quote; everything else is an estimate until quoted.",
   "lines": [
     {
       "id": "house",
       "category": "House",
-      "item": "Residence: 5 bedrooms, 14–20 Nov ($6,000 quote)",
+      "item": "Airbnb house: 5 bedrooms, 14–20 Nov ($6,000 USD quote; confirm fees)",
       "plannedGbp": 4480,
       "committedGbp": 0,
       "paidGbp": 0,
@@ -95,7 +95,7 @@
     {
       "id": "transport",
       "category": "Operations",
-      "item": "Airport cars and excursions",
+      "item": "Cars: airport and excursions (no special vehicle)",
       "plannedGbp": 1500,
       "committedGbp": 0,
       "paidGbp": 0,
@@ -113,8 +113,8 @@
     {
       "id": "print",
       "category": "Hospitality",
-      "item": "Print, signage, florals",
-      "plannedGbp": 1200,
+      "item": "Print, signage, florals, props (locked list by 30 Oct)",
+      "plannedGbp": 1500,
       "committedGbp": 0,
       "paidGbp": 0,
       "estimate": true
@@ -131,8 +131,8 @@
     {
       "id": "contingency",
       "category": "Contingency",
-      "item": "10% contingency (Dubai overspent ~$15k)",
-      "plannedGbp": 3928,
+      "item": "15% contingency (Dubai's surprises cost $5–10k)",
+      "plannedGbp": 5937,
       "committedGbp": 0,
       "paidGbp": 0,
       "estimate": true

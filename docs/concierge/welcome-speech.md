@@ -16,7 +16,7 @@ You're not guests watching that happen. **You're the hosts.** That's what the ch
 
 In return, our job is to look after you. That means cars when you need them, a team that knows your name and your coffee order, and a card on your pillow every night so you never wake up wondering what's happening. If anything isn't right, tell [House manager]. It's their whole job this week to make it right.
 
-A few people to thank: [Presenting partner] — [one sincere line]. And our partners: [names]. They're not here because of logos. They're here because they believe in what gets built in rooms like this.
+A few people to thank: our Founding Partners, [Partner A] and [Partner B]: [one sincere line each]. And our partners: [names]. They're not here because of logos. They're here because they believe in what gets built in rooms like this.
 
 So: have a great week. Meet the people you came to meet. Say something worth clipping. Get some sleep occasionally.
 
@@ -27,5 +27,5 @@ To SagaDAO House, London.
 **Checklist for the night**
 - [ ] Glasses charged before you stand
 - [ ] Crew ready; a lav on the speaker
-- [ ] Presenting partner told that they'll be mentioned (no surprises)
+- [ ] Founding Partners told that they'll be mentioned (no surprises)
 - [ ] Hand-off to the first course immediately after

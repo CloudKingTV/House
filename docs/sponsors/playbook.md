@@ -30,6 +30,10 @@ Keep it short. Write to the decision-maker (marketing lead, head of ecosystem or
 >
 > Partners get the moment, the content, and a results report within a week. Deck attached; 15 minutes this week?
 
+## Terms
+
+Every sponsor signs on the [sponsor terms](terms.md): 50% on signing and the balance by 30 Oct, extras billed to the sponsor, and make-good rather than cash refunds. Walk them through it on the call, not just in the PDF.
+
 ## After they sign
 
 1. **Within 48 hours:** kickoff call. Confirm deliverables, the people involved, assets, and approvals.

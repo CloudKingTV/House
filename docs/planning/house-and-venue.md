@@ -7,19 +7,27 @@ A 5-bedroom house can't host 300 people, and most London lets prohibit parties a
 - **The house is private.** Residents, the studio, breakfasts for up to about 16, and resident dinners. Getting in is by invitation, which is what makes it feel special.
 - **The venue is public.** The Saga Sessions, Demo Hour and the flagship night happen at a licensed venue near Olympia.
 
-## The candidate house: $6,000, 5 bedrooms
+## The candidate house: Airbnb, $6,000 USD, 5 bedrooms
 
-At about £4,480 for the week, this is excellent value for Breakpoint week, which is exactly why it needs vetting before anyone pays a deposit. **Target: vetted by Mon 28 Sep, signed by Fri 2 Oct.**
+At about £4,480 for the week, this is excellent value for Breakpoint week, which is exactly why it needs vetting before anyone pays. **Target: vetted by Mon 28 Sep, booked by Fri 2 Oct.**
+
+**Airbnb rules that matter here.** Airbnb's party ban is permanent and applies to every listing. Small, quiet gatherings are allowed only if the host **explicitly approves them in writing**. So:
+- **Ask the host in Airbnb messages**, not WhatsApp or a phone call, so the approval is on the platform's record. Ask about (1) filming content inside for social media, (2) breakfasts and dinners of up to about 16 invited guests, and (3) confirm that there will be no parties. Keep the message friendly and specific.
+- **Pay only through Airbnb**, never off-platform, so AirCover and the payment protection apply.
+- Book in the name of the person who will actually be there, and list every resident as a guest.
+
+**Checklist**
 
 - [ ] **Where exactly is it?** Walking time or drive to Olympia. More than 25 minutes by car makes the daily rhythm hard.
 - [ ] **Is the listing genuine?** Book through a platform with payment protection, or verify the owner or agent. Never pay by bank transfer to an individual for a short let.
-- [ ] **Floor plan:** bed types in each room (which rooms can take two?), and the number of bathrooms (aim for 3 or more for 8 people)
-- [ ] **Written permission** for filming, and for gatherings of about 16 for breakfasts and dinners
+- [ ] **Beds per room:** the listing's **"Where you'll sleep"** section shows the beds in each bedroom. Update `data/guests.json` → `rooms` to match. Check the bathroom count too (aim for 3 or more for 8 people).
+- [ ] **The host's written OK in Airbnb messages** for filming and gatherings of up to about 16
 - [ ] **Studio space:** a quiet room or corner, about 3 × 3 m, where the light can be controlled
 - [ ] **Dining table** that seats 10–14 for the Welcome Dinner (or plan to hold it at a restaurant)
 - [ ] Wi-Fi speed (ask for a screenshot) and heating (it's November)
 - [ ] Check-in on Sat 14 and checkout on Fri 20, with the exact times; ask for early check-in and late checkout
-- [ ] Cancellation, deposit and cleaning terms
+- [ ] The cancellation policy shown on the listing, and whether the $6k includes cleaning and service fees
+- [ ] Guest count: the listing's maximum must cover every resident who sleeps there
 
 ## Residence criteria (if we need an alternative)
 
@@ -59,5 +67,5 @@ Track candidates here until one is signed.
 
 | Property / venue | Area | Beds / capacity | Price | Event OK in writing? | Status | Link |
 |---|---|---|---|---|---|---|
-| Candidate house | TBC | 5 bedrooms | $6,000 / week | To ask | Vetting | |
+| Candidate Airbnb | TBC | 5 bedrooms | $6,000 USD / week | Ask in Airbnb messages | Vetting | |
 | | | | | | | |

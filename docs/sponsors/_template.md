@@ -4,7 +4,9 @@ Copy this file to `docs/sponsors/partners/<sponsor-slug>.md` when a sponsor sign
 
 | | |
 |---|---|
-| **Tier** | Presenting / Programme / Experience / Supporter |
+| **Tier** | Founding / Programme / Experience |
+| **Payments** | 50% received: YYYY-MM-DD · 50% received: YYYY-MM-DD |
+| **Extras quoted** | Item, $, invoiced? |
 | **Owns** | e.g. Saga Sessions Night 1 |
 | **Value** | $ |
 | **Signed** | YYYY-MM-DD |

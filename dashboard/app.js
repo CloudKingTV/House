@@ -489,7 +489,7 @@
         <thead><tr><th>Line</th><th class="r">Planned</th><th class="r">Committed</th><th class="r">Paid</th><th class="bar-cell">Progress</th></tr></thead>
         <tbody>
           ${cats.map((c) => `<tr class="group"><td colspan="5">${esc(c)}</td></tr>` + budget.lines.filter((l) => l.category === c).map((l) => `<tr>
-            <td>${esc(l.item)} ${l.estimate ? '<span class="pill" style="margin-left:4px">est.</span>' : ''}</td>
+            <td>${esc(l.item)} ${l.estimate ? '<span class="pill" style="margin-left:4px">est.</span>' : ''}${l.partnerFunded ? ' <span class="pill green">partner-funded</span>' : ''}</td>
             <td class="r mono">${gbp(l.plannedGbp)}</td>
             <td class="r mono">${l.committedGbp ? gbp(l.committedGbp) : '—'}</td>
             <td class="r mono">${l.paidGbp ? gbp(l.paidGbp) : '—'}</td>

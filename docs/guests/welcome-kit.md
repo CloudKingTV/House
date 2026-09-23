@@ -18,7 +18,7 @@ Presented in a rigid box with a lid (not a tote), with the resident's name and r
 | **Travel adapter (UK) plus a fast charger** | Everyone forgets one | | ✔ |
 | **Local treat**: artisan chocolate, shortbread or a London gin miniature | A sense of place | From form | ✔ |
 | **Recovery kit**: electrolytes, eye mask, earplugs, paracetamol | Breakpoint week is long | | ✔ |
-| **Presenting partner hero item** | Their best moment of physical contact | | ✔ |
+| **Founding Partner hero items** | Their best moment of physical contact | | ✔ |
 | **Content card**: QR to the shared drive, the week's hashtag and handles | Makes the charter easy | | |
 
 **Budget:** about £300 per kit (£2,400 for 8), excluding sponsor-supplied items. The Welcome Kit is an Experience Partner slot, so a partner can fund it.
