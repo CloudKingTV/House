@@ -65,3 +65,7 @@ Add anything you remember, in any order. Date each line.
 - 2026-09-23: The overspend came from it being our first event. Unexpected costs: **props**, **the vehicle we wanted for transport**, **a karaoke machine a specific sponsor needed**, and **a sponsor asking for a refund** partway through. Together about $5–10k over. → Budget rules and [sponsor terms](sponsors/terms.md) updated.
 - 2026-09-23: Dubai sponsor tiers were **$10k / $5k / $2.5k**. London moves to **$15k / $10k / $5k**.
 - 2026-09-23: Fewer residents this year: a 5-bedroom house instead of 12 guests. Fewer people, looked after better.
+- 2026-10-11: **Track record.** Last year's sponsor deck places the first house at **Solana Breakpoint Abu Dhabi, 10–18 Dec 2025**, with 521 unique visitors, 18 projects, 7 days live and 12 resident creators. *(This file calls it "Dubai"; to confirm.)* Two more houses followed:
+  - **Miami**, during Solana Accelerate (May 2026), in partnership with ABCD: about 75–100 people at the house event.
+  - **Koh Samui, Thailand**, at IslandDAO (June–July 2026): about 45 IslandDAO attendees.
+  - Both produced real outcomes: major connections, deals done, and new jobs. London is the fourth house.
