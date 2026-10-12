@@ -38,6 +38,12 @@ Choose one to own: **a Resident Dinner**, **the Farewell Dinner**, **the Welcome
 - Welcome kit or attendee gift inclusion
 - Can invite 6 guests to the flagship night
 
+## Experience Stations · add-on · $1,000
+
+A physical station inside the house: **Hydration**, **Charging**, **Bathroom Suite**, or the sponsor's own concept. Free with Founding; a $1,000 add-on for Programme and Experience partners.
+
+**The sponsor supplies the branded items** (bottles, power banks, towels and so on), delivered to our London team by **12 November**. We place them and film them. We don't source branded goods ourselves: with weeks to go and no UK supplier relationships, that's a Dubai-style cost and timing risk (Cory's review, 12 Oct).
+
 ## The maths
 
 | Tier | Slots | Price | Total |

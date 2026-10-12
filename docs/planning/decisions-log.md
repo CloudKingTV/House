@@ -4,6 +4,7 @@ Newest first. One line for the decision and one for the reason. When a decision 
 
 | Date | Decision | Why | Status |
 |---|---|---|---|
+| 2026-10-12 | **Experience Stations** ($1k add-on, free with Founding) are **sponsor-supplied**: they send branded items by 12 Nov, we place and film | Cory flagged that sourcing branded goods ourselves this close to Breakpoint is risky without supplier contacts | Agreed |
 | 2026-09-23 | Sponsor tiers **$15k / $10k / $5k** (2 / 4 / 6 slots, $100k max) | One step up from Dubai's $10k / $5k / $2.5k; justified by owned moments, same-day content and a results report | Agreed |
 | 2026-09-23 | **Sponsor terms:** 50% on signing, balance by 30 Oct; extras billed to the sponsor; make-good, not cash refunds | A Dubai sponsor asked for a refund, and another's karaoke machine came out of our budget | Draft; lawyer to review |
 | 2026-09-23 | Contingency raised to **15%**; props list locked by 30 Oct; no special vehicle | Dubai's first-event surprises cost $5–10k | Agreed |
