@@ -1,14 +1,9 @@
 {
   "formats": [
     "arrival",
-    "breakfast",
-    "session",
-    "studio",
-    "demo",
-    "closed-door",
-    "office-hours",
+    "podcast",
+    "stream",
     "flagship",
-    "dinner",
     "experience",
     "ops"
   ],
@@ -19,37 +14,14 @@
       "items": [
         {
           "time": "All day",
-          "title": "Airport pickups: name boards, water, chargers",
+          "title": "Residents arrive",
           "format": "arrival",
-          "audience": "Residents",
           "status": "draft"
         },
         {
-          "time": "14:00",
-          "title": "Arrival ritual: named greeting, drink, tour, note, welcome kit",
-          "format": "arrival",
-          "audience": "Residents",
-          "status": "draft"
-        },
-        {
-          "time": "17:30",
-          "title": "Content onboarding: charter, week, drive, WhatsApp",
-          "format": "ops",
-          "audience": "Residents",
-          "status": "draft"
-        },
-        {
-          "time": "19:30",
-          "title": "Welcome Dinner and welcome speech",
-          "format": "dinner",
-          "audience": "Residents + Founding Partners",
-          "status": "draft"
-        },
-        {
-          "time": "21:30",
-          "title": "First nightly briefing",
-          "format": "ops",
-          "audience": "Residents",
+          "time": "Evening",
+          "title": "Opening live stream",
+          "format": "stream",
           "status": "draft"
         }
       ]
@@ -59,40 +31,15 @@
       "label": "Breakpoint Day 1",
       "items": [
         {
-          "time": "07:45",
-          "title": "Builder Breakfast #1",
-          "format": "breakfast",
-          "audience": "25 invited",
-          "capacity": 25,
+          "time": "Daytime",
+          "title": "Saga Podcast Sessions",
+          "format": "podcast",
           "status": "draft"
         },
         {
-          "time": "09:15",
-          "title": "Stand-up",
-          "format": "ops",
-          "audience": "Residents",
-          "status": "draft"
-        },
-        {
-          "time": "10:00",
-          "title": "House Studio recording",
-          "format": "studio",
-          "audience": "Speakers",
-          "status": "draft"
-        },
-        {
-          "time": "18:30",
-          "title": "Saga Sessions: Night 1 (streamed)",
-          "format": "session",
-          "audience": "80–150",
-          "capacity": 150,
-          "status": "draft"
-        },
-        {
-          "time": "20:30",
-          "title": "Resident Dinner",
-          "format": "dinner",
-          "audience": "Residents + guests",
+          "time": "Evening",
+          "title": "Nightly live stream",
+          "format": "stream",
           "status": "draft"
         }
       ]
@@ -102,40 +49,15 @@
       "label": "Breakpoint Day 2",
       "items": [
         {
-          "time": "07:45",
-          "title": "Builder Breakfast #2",
-          "format": "breakfast",
-          "audience": "25 invited",
-          "capacity": 25,
+          "time": "Daytime",
+          "title": "Saga Podcast Sessions",
+          "format": "podcast",
           "status": "draft"
         },
         {
-          "time": "09:15",
-          "title": "Stand-up",
-          "format": "ops",
-          "audience": "Residents",
-          "status": "draft"
-        },
-        {
-          "time": "10:00",
-          "title": "House Studio recording",
-          "format": "studio",
-          "audience": "Speakers",
-          "status": "draft"
-        },
-        {
-          "time": "14:00",
-          "title": "Office Hours",
-          "format": "office-hours",
-          "audience": "1:1 bookings",
-          "status": "draft"
-        },
-        {
-          "time": "19:00",
-          "title": "Flagship Night (or Tue 17, decision open)",
-          "format": "flagship",
-          "audience": "300+",
-          "capacity": 300,
+          "time": "Evening",
+          "title": "Nightly live stream",
+          "format": "stream",
           "status": "draft"
         }
       ]
@@ -145,102 +67,45 @@
       "label": "Breakpoint Day 3",
       "items": [
         {
-          "time": "07:45",
-          "title": "Closed Door roundtable",
-          "format": "closed-door",
-          "audience": "14 invited",
-          "capacity": 14,
+          "time": "Daytime",
+          "title": "Saga Podcast Sessions",
+          "format": "podcast",
           "status": "draft"
         },
         {
-          "time": "09:15",
-          "title": "Stand-up",
-          "format": "ops",
-          "audience": "Residents",
-          "status": "draft"
-        },
-        {
-          "time": "10:00",
-          "title": "House Studio recording",
-          "format": "studio",
-          "audience": "Speakers",
-          "status": "draft"
-        },
-        {
-          "time": "18:30",
-          "title": "Saga Sessions: Night 2 (streamed)",
-          "format": "session",
-          "audience": "80–150",
-          "capacity": 150,
+          "time": "Evening",
+          "title": "Flagship Night",
+          "format": "flagship",
           "status": "draft"
         }
       ]
     },
     {
       "date": "2026-11-18",
-      "label": "SagaDAO Day",
+      "label": "London",
       "items": [
         {
-          "time": "10:00",
-          "title": "Slow breakfast",
-          "format": "ops",
-          "audience": "Residents",
-          "status": "draft"
-        },
-        {
-          "time": "13:00",
-          "title": "Demo Hour: 5 projects, 5 minutes, live judging",
-          "format": "demo",
-          "audience": "100+",
-          "capacity": 120,
-          "status": "draft"
-        },
-        {
-          "time": "15:00",
-          "title": "Closed Door #2 or workshop",
-          "format": "closed-door",
-          "audience": "14 invited",
-          "capacity": 14,
+          "time": "Daytime",
+          "title": "Hosted London experience (day TBC)",
+          "format": "experience",
           "status": "draft"
         },
         {
           "time": "Evening",
-          "title": "London experience",
-          "format": "experience",
-          "audience": "Residents",
+          "title": "Nightly live stream",
+          "format": "stream",
           "status": "draft"
         }
       ]
     },
     {
       "date": "2026-11-19",
-      "label": "London day and farewell",
-      "items": [
-        {
-          "time": "Daytime",
-          "title": "Excursion (choice of two)",
-          "format": "experience",
-          "audience": "Residents",
-          "status": "draft"
-        },
-        {
-          "time": "19:30",
-          "title": "Farewell Dinner",
-          "format": "dinner",
-          "audience": "Residents + partners",
-          "status": "draft"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20",
       "label": "Departures",
       "items": [
         {
-          "time": "07:00",
-          "title": "Farewell breakfast, departure gifts, cars",
+          "time": "Morning",
+          "title": "Departures",
           "format": "arrival",
-          "audience": "Residents",
           "status": "draft"
         }
       ]

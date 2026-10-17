@@ -4,6 +4,10 @@ Newest first. One line for the decision and one for the reason. When a decision 
 
 | Date | Decision | Why | Status |
 |---|---|---|---|
+| 2026-10-17 | Checkout moves to **Thu 19 Nov** (arrive 14th, depart 19th) | Owner's call | Agreed |
+| 2026-10-17 | **Flagship Night is Tue 17 Nov** | Owner's call | Agreed |
+| 2026-10-17 | Programme simplified to **daily Saga Podcast Sessions, nightly live streams, the Flagship Night and one hosted London experience**. No builder breakfasts, Demo Hour or closed-door formats. | Owner's call; easier to deliver and to sell | Agreed |
+| 2026-10-17 | Sponsorship moves to **two tiers: $1k (Partner) and $2.5k (Featured Partner)**. Experience Stations dropped. | Owner's call | Agreed; slot counts open. At these prices, covering the ~$61k plan needs roughly 30+ partners, so the budget or the partner count needs a rethink |
 | 2026-10-12 | **Experience Stations** ($1k add-on, free with Founding) are **sponsor-supplied**: they send branded items by 12 Nov, we place and film | Cory flagged that sourcing branded goods ourselves this close to Breakpoint is risky without supplier contacts | Agreed |
 | 2026-09-23 | Sponsor tiers **$15k / $10k / $5k** (2 / 4 / 6 slots, $100k max) | One step up from Dubai's $10k / $5k / $2.5k; justified by owned moments, same-day content and a results report | Agreed |
 | 2026-09-23 | **Sponsor terms:** 50% on signing, balance by 30 Oct; extras billed to the sponsor; make-good, not cash refunds | A Dubai sponsor asked for a refund, and another's karaoke machine came out of our budget | Draft; lawyer to review |

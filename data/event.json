@@ -12,7 +12,7 @@
   },
   "house": {
     "checkIn": "2026-11-14",
-    "checkOut": "2026-11-20",
+    "checkOut": "2026-11-19",
     "checkOutConfirmed": true,
     "address": null
   },
@@ -74,8 +74,13 @@
       "kind": "milestone"
     },
     {
+      "date": "2026-11-17",
+      "label": "Flagship Night",
+      "kind": "milestone"
+    },
+    {
       "date": "2026-11-18",
-      "label": "SagaDAO Day (post-conference)",
+      "label": "Hosted London experience (day TBC)",
       "kind": "milestone"
     },
     {
@@ -182,8 +187,9 @@
     "Airbnb host: written OK (in Airbnb messages) for content filming and pre-approved gatherings of up to ~16?",
     "How many residents: 5 (a room each) or up to 8 (some sharing)? Depends on the listing's beds.",
     "Flagship venue: a minimum-spend bar or restaurant buyout near Olympia, or partner-hosted",
-    "Flagship night: Mon 16 or Tue 17?",
     "Nightly rate stated in the charter",
-    "Sponsor terms: payment schedule and no-cash-refund policy"
+    "Sponsor terms: payment schedule and no-cash-refund policy",
+    "Sponsor slots at $1k / $2.5k: how many of each? At these prices ~30+ partners are needed to cover a ~$61k plan",
+    "Which day is the hosted London experience? (deck shows Wed 18)"
   ]
 }
